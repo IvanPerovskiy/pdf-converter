@@ -6,9 +6,7 @@
 # Инструкция сборки и запуска
 
   1. Заполнить файл .env.
-
-    docker-compose up --build
-  
+ 
   2. Запустить сборку.
 
     docker-compose up --build
