@@ -1,0 +1,3 @@
+@                TXT    v=spf1 include:spf.unione.io ~all
+us._domainkey    TXT    v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9Oh4byPta/Hgw0npKQOtMZc1WxrNwfHg7C0O44TdmvjmIvq679v4dY5vzcGNF+QHCLFGI2hUhvb/2woqgFOu0C5J8FWvEq6Ts7nqezFJXTWgLNWuJKV4GEyurkBNMZBQfOZ7xWlrCzBbEHyTjONPHfAFQs+89Q2pXO0Y58I1KfwIDAQAB
+@                TXT    unione-validate-hash=cb0a9912fb7f93506b2a33653657c63e

@@ -1,0 +1,1340 @@
+2022-02-18 11:04:26,829 - USER_ID: a3a95cd5-69e8-4403-9b06-a4349e16567b | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-18 11:04:38,436 - USER_ID: a3a95cd5-69e8-4403-9b06-a4349e16567b | METHOD: GET | URL: /api/documents/d97d1e91-67fb-4b9c-9886-7dc6e0fdfe7d/previews | ARGS: {}
+2022-02-18 11:05:19,689 - USER_ID: a3a95cd5-69e8-4403-9b06-a4349e16567b | METHOD: POST | URL: /api/documents/ | 
+2022-02-18 11:05:21,290 - USER_ID: a3a95cd5-69e8-4403-9b06-a4349e16567b | METHOD: POST | URL: /api/documents/ | 
+2022-02-18 12:09:02,176 - USER_ID: a3a95cd5-69e8-4403-9b06-a4349e16567b | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-18 12:09:41,645 - USER_ID: a3a95cd5-69e8-4403-9b06-a4349e16567b | METHOD: POST | URL: /api/documents/ | 
+2022-02-18 12:10:09,298 - USER_ID: a3a95cd5-69e8-4403-9b06-a4349e16567b | METHOD: GET | URL: /api/documents/91c9270f-49cf-45f9-8041-2826a5ba8c9d | ARGS: {}
+2022-02-18 12:56:42,130 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-18 12:56:42,380 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-18 12:56:42,807 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-18 12:56:42,996 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-18 12:56:43,220 - USER_ID: a7bee995-a89d-4253-b428-3486fb17d818 | METHOD: POST | URL: /api/documents/ | 
+2022-02-18 12:56:51,845 - USER_ID: a7bee995-a89d-4253-b428-3486fb17d818 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-18 12:56:51,860 - USER_ID: a7bee995-a89d-4253-b428-3486fb17d818 | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-18 12:56:51,878 - USER_ID: a7bee995-a89d-4253-b428-3486fb17d818 | METHOD: GET | URL: /api/documents/3c5e8e32-da3f-4c9f-918d-2f9556e19813 | ARGS: {'body': ['0']}
+2022-02-18 12:56:51,889 - USER_ID: d66210eb-f357-40fd-b3d6-55dda6921e40 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 0, 'user_id': 'a7bee995-a89d-4253-b428-3486fb17d818'}
+2022-02-18 12:56:51,898 - USER_ID: a7bee995-a89d-4253-b428-3486fb17d818 | METHOD: POST | URL: /api/documents/3c5e8e32-da3f-4c9f-918d-2f9556e19813/convert | ARGS: {}
+2022-02-18 12:57:21,179 - USER_ID: a7bee995-a89d-4253-b428-3486fb17d818 | METHOD: GET | URL: /api/documents/3c5e8e32-da3f-4c9f-918d-2f9556e19813/previews | ARGS: {}
+2022-02-18 12:57:21,486 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-18 12:57:21,652 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-18 12:57:21,838 - USER_ID: bef3a725-0bf6-48bb-963e-556c4197c3a7 | METHOD: POST | URL: /api/documents/ | 
+2022-02-18 12:57:39,130 - USER_ID: bef3a725-0bf6-48bb-963e-556c4197c3a7 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-18 12:57:39,144 - USER_ID: bef3a725-0bf6-48bb-963e-556c4197c3a7 | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-18 12:57:39,170 - USER_ID: bef3a725-0bf6-48bb-963e-556c4197c3a7 | METHOD: GET | URL: /api/documents/546f4590-cd7f-471e-a917-dc4832516588 | ARGS: {'body': ['0']}
+2022-02-18 12:57:39,185 - USER_ID: bef3a725-0bf6-48bb-963e-556c4197c3a7 | METHOD: POST | URL: /api/documents/546f4590-cd7f-471e-a917-dc4832516588/split | ARGS: {'pages': [1, 3, 6, 10]}
+2022-02-18 12:57:48,159 - USER_ID: bef3a725-0bf6-48bb-963e-556c4197c3a7 | METHOD: POST | URL: /api/documents/merge | ARGS: {'sources': [{'id': '546f4590-cd7f-471e-a917-dc4832516588'}, {'id': '9bb1424e-534c-4f82-8713-ef1e7159c860'}]}
+2022-02-18 12:58:12,434 - USER_ID: bef3a725-0bf6-48bb-963e-556c4197c3a7 | METHOD: GET | URL: /api/documents/546f4590-cd7f-471e-a917-dc4832516588/download | ARGS: {'body': ['0']}
+2022-02-18 12:58:12,497 - USER_ID: bef3a725-0bf6-48bb-963e-556c4197c3a7 | METHOD: GET | URL: /api/documents/546f4590-cd7f-471e-a917-dc4832516588/download | ARGS: {'body': ['0']}
+2022-02-18 12:58:12,600 - USER_ID: bef3a725-0bf6-48bb-963e-556c4197c3a7 | METHOD: GET | URL: /api/documents/3369104e-7a4e-4634-b5fb-8505dc45ad85/download | ARGS: {'body': ['0']}
+2022-02-18 12:58:12,641 - USER_ID: bef3a725-0bf6-48bb-963e-556c4197c3a7 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-18 12:58:12,650 - USER_ID: 25e52812-112f-4955-a034-3e787fc26777 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': 'bef3a725-0bf6-48bb-963e-556c4197c3a7'}
+2022-02-18 12:58:12,661 - USER_ID: bef3a725-0bf6-48bb-963e-556c4197c3a7 | METHOD: GET | URL: /api/documents/3369104e-7a4e-4634-b5fb-8505dc45ad85/download | ARGS: {'body': ['0']}
+2022-02-18 12:58:12,910 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-18 12:58:13,076 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-18 12:58:13,292 - USER_ID: 0c874f43-88bb-4805-963c-cc8894ea14a0 | METHOD: POST | URL: /api/documents/ | 
+2022-02-18 12:58:31,007 - USER_ID: 0c874f43-88bb-4805-963c-cc8894ea14a0 | METHOD: POST | URL: /api/documents/a6e0e6ac-9fe3-4112-b2b3-801dee2242a1/split | ARGS: {'pages': [1, 2, 5]}
+2022-02-18 12:58:37,458 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-18 12:58:37,672 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-18 12:58:37,997 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-18 12:58:38,161 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-18 12:58:38,328 - USER_ID: anonymous | METHOD: POST | URL: /api/users/register | ARGS: {'login': 'ivan', 'email': 'ivanperovsky@gmail.com', 'password': '1234'}
+2022-02-18 12:58:38,489 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-02-18 12:58:38,733 - USER_ID: 02b873e1-1728-4efd-9a0d-c7a5595a3dca | METHOD: POST | URL: /api/users/register | ARGS: {'email': 'test@gmail.com', 'password': '12345'}
+2022-02-18 12:58:38,894 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test@gmail.com', 'password': '1234'}
+2022-02-18 12:58:39,051 - USER_ID: 7ec275f8-5194-4692-ac06-5da8df22738d | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test2@gmail.com', 'password': '1234'}
+2022-02-18 12:58:39,055 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan', 'password': '1234'}
+2022-02-18 12:58:39,363 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-18 12:58:39,524 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-18 12:58:39,764 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-02-18 12:58:39,929 - USER_ID: ac6ebf8d-7dfb-4527-8fb8-16a3473c5e36 | METHOD: POST | URL: /api/users/login_phone | ARGS: {'phone': '79312972206'}
+2022-02-18 13:02:32,525 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-18 13:02:32,709 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-18 13:02:33,082 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-18 13:02:33,313 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-18 13:02:33,486 - USER_ID: 84f95db7-871c-45cd-911c-e3f5507a1888 | METHOD: POST | URL: /api/documents/ | 
+2022-02-18 13:02:35,101 - USER_ID: 84f95db7-871c-45cd-911c-e3f5507a1888 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-18 13:02:35,113 - USER_ID: 84f95db7-871c-45cd-911c-e3f5507a1888 | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-18 13:02:35,123 - USER_ID: 84f95db7-871c-45cd-911c-e3f5507a1888 | METHOD: GET | URL: /api/documents/dcf7c8b2-5271-4a2a-8a0f-b2d459eb27c5 | ARGS: {'body': ['0']}
+2022-02-18 13:02:35,134 - USER_ID: de0124de-c6c8-4d03-89c7-96ff68ade9d1 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 0, 'user_id': '84f95db7-871c-45cd-911c-e3f5507a1888'}
+2022-02-18 13:02:35,144 - USER_ID: 84f95db7-871c-45cd-911c-e3f5507a1888 | METHOD: POST | URL: /api/documents/dcf7c8b2-5271-4a2a-8a0f-b2d459eb27c5/convert | ARGS: {}
+2022-02-18 13:02:59,029 - USER_ID: 84f95db7-871c-45cd-911c-e3f5507a1888 | METHOD: GET | URL: /api/documents/dcf7c8b2-5271-4a2a-8a0f-b2d459eb27c5/previews | ARGS: {}
+2022-02-18 13:02:59,203 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-18 13:02:59,386 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-18 13:02:59,576 - USER_ID: 1f46fbc0-de6e-4651-a1bb-de32663a0e4c | METHOD: POST | URL: /api/documents/ | 
+2022-02-18 13:03:19,671 - USER_ID: 1f46fbc0-de6e-4651-a1bb-de32663a0e4c | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-18 13:03:19,686 - USER_ID: 1f46fbc0-de6e-4651-a1bb-de32663a0e4c | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-18 13:03:19,714 - USER_ID: 1f46fbc0-de6e-4651-a1bb-de32663a0e4c | METHOD: GET | URL: /api/documents/63cc876a-7225-4bc1-bbe1-adc528f361a3 | ARGS: {'body': ['0']}
+2022-02-18 13:03:19,732 - USER_ID: 1f46fbc0-de6e-4651-a1bb-de32663a0e4c | METHOD: POST | URL: /api/documents/63cc876a-7225-4bc1-bbe1-adc528f361a3/split | ARGS: {'pages': [1, 3, 6, 10]}
+2022-02-18 13:03:28,873 - USER_ID: 1f46fbc0-de6e-4651-a1bb-de32663a0e4c | METHOD: POST | URL: /api/documents/merge | ARGS: {'sources': [{'id': '63cc876a-7225-4bc1-bbe1-adc528f361a3'}, {'id': '3372b16f-8906-442c-a1ae-16551b04ca51'}]}
+2022-02-18 13:03:53,868 - USER_ID: 1f46fbc0-de6e-4651-a1bb-de32663a0e4c | METHOD: GET | URL: /api/documents/63cc876a-7225-4bc1-bbe1-adc528f361a3/download | ARGS: {'body': ['0']}
+2022-02-18 13:03:53,914 - USER_ID: 1f46fbc0-de6e-4651-a1bb-de32663a0e4c | METHOD: GET | URL: /api/documents/63cc876a-7225-4bc1-bbe1-adc528f361a3/download | ARGS: {'body': ['0']}
+2022-02-18 13:03:53,971 - USER_ID: 1f46fbc0-de6e-4651-a1bb-de32663a0e4c | METHOD: GET | URL: /api/documents/f3b07f8e-3efa-4622-a6f4-de5139541a4f/download | ARGS: {'body': ['0']}
+2022-02-18 13:03:54,006 - USER_ID: 1f46fbc0-de6e-4651-a1bb-de32663a0e4c | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-18 13:03:54,016 - USER_ID: 2f5d0d15-18b0-4789-8e80-b9ba4d75348f | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': '1f46fbc0-de6e-4651-a1bb-de32663a0e4c'}
+2022-02-18 13:03:54,026 - USER_ID: 1f46fbc0-de6e-4651-a1bb-de32663a0e4c | METHOD: GET | URL: /api/documents/f3b07f8e-3efa-4622-a6f4-de5139541a4f/download | ARGS: {'body': ['0']}
+2022-02-18 13:03:54,272 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-18 13:03:54,434 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-18 13:03:54,619 - USER_ID: 7593b451-a7fa-482e-a7dc-12fa55c51c8d | METHOD: POST | URL: /api/documents/ | 
+2022-02-18 13:04:12,629 - USER_ID: 7593b451-a7fa-482e-a7dc-12fa55c51c8d | METHOD: POST | URL: /api/documents/ec812c71-d1d7-4d9f-b05b-784533489724/split | ARGS: {'pages': [1, 2, 5]}
+2022-02-18 13:04:18,790 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-18 13:04:19,027 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-18 13:04:19,646 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-18 13:04:19,819 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-18 13:04:19,999 - USER_ID: anonymous | METHOD: POST | URL: /api/users/register | ARGS: {'login': 'ivan', 'email': 'ivanperovsky@gmail.com', 'password': '1234'}
+2022-02-18 13:04:20,246 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-02-18 13:04:20,412 - USER_ID: 04325c90-9fd1-404c-abd6-7e5e58709f7f | METHOD: POST | URL: /api/users/register | ARGS: {'email': 'test@gmail.com', 'password': '12345'}
+2022-02-18 13:04:20,577 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test@gmail.com', 'password': '1234'}
+2022-02-18 13:04:20,800 - USER_ID: 1cc006ca-df49-48f2-9e84-ffb50c123c7f | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test2@gmail.com', 'password': '1234'}
+2022-02-18 13:04:20,807 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan', 'password': '1234'}
+2022-02-18 13:04:21,457 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-18 13:04:21,726 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-18 13:04:22,011 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-02-18 13:04:22,277 - USER_ID: 6f4d87a6-0afc-46d8-ab09-35eae452b7f8 | METHOD: POST | URL: /api/users/login_phone | ARGS: {'phone': '79312972206'}
+2022-02-19 21:38:54,050 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '333'}
+2022-02-19 21:40:29,427 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '333'}
+2022-02-19 21:40:57,859 - USER_ID: a3a95cd5-69e8-4403-9b06-a4349e16567b | METHOD: GET | URL: /api/documents/91c9270f-49cf-45f9-8041-2826a5ba8c9d | ARGS: {}
+2022-02-19 21:42:33,503 - USER_ID: a3a95cd5-69e8-4403-9b06-a4349e16567b | METHOD: POST | URL: /api/documents/modify | ARGS: {'sources': [{'id': '69b03ea1-d584-4909-a4da-cf6c87d35f23', 'page_number': 1}, {'id': '69b03ea1-d584-4909-a4da-cf6c87d35f23', 'page_number': 1}, {'id': '69b03ea1-d584-4909-a4da-cf6c87d35f23', 'page_number': 1}, {'id': '69b03ea1-d584-4909-a4da-cf6c87d35f23', 'page_number': 1}]}
+2022-02-19 21:45:32,769 - USER_ID: a3a95cd5-69e8-4403-9b06-a4349e16567b | METHOD: POST | URL: /api/documents/modify | ARGS: {'sources': [{'id': '69b03ea1-d584-4909-a4da-cf6c87d35f23', 'page_number': 1}, {'id': '69b03ea1-d584-4909-a4da-cf6c87d35f23', 'page_number': 1}, {'id': '69b03ea1-d584-4909-a4da-cf6c87d35f23', 'page_number': 1}, {'id': '69b03ea1-d584-4909-a4da-cf6c87d35f23', 'page_number': 1}]}
+2022-02-19 22:02:45,663 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '333'}
+2022-02-19 22:02:54,334 - USER_ID: a3a95cd5-69e8-4403-9b06-a4349e16567b | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-19 22:03:22,841 - USER_ID: a3a95cd5-69e8-4403-9b06-a4349e16567b | METHOD: POST | URL: /api/documents/modify | ARGS: {'sources': [{'id': '69b03ea1-d584-4909-a4da-cf6c87d35f23', 'page_number': 1}, {'id': '69b03ea1-d584-4909-a4da-cf6c87d35f23', 'page_number': 1}, {'id': '69b03ea1-d584-4909-a4da-cf6c87d35f23', 'page_number': 1}, {'id': '69b03ea1-d584-4909-a4da-cf6c87d35f23', 'page_number': 1}]}
+2022-02-19 22:03:53,355 - USER_ID: a3a95cd5-69e8-4403-9b06-a4349e16567b | METHOD: POST | URL: /api/documents/ | 
+2022-02-19 22:04:46,527 - USER_ID: a3a95cd5-69e8-4403-9b06-a4349e16567b | METHOD: POST | URL: /api/documents/ | 
+2022-02-19 22:05:16,707 - USER_ID: a3a95cd5-69e8-4403-9b06-a4349e16567b | METHOD: POST | URL: /api/documents/modify | ARGS: {'sources': [{'id': '6de9227f-c269-40fe-ae44-1a752895fe1c', 'page_number': 1}, {'id': '6de9227f-c269-40fe-ae44-1a752895fe1c', 'page_number': 1}, {'id': '6de9227f-c269-40fe-ae44-1a752895fe1c', 'page_number': 1}, {'id': '6de9227f-c269-40fe-ae44-1a752895fe1c', 'page_number': 1}]}
+2022-02-19 22:17:09,540 - USER_ID: a3a95cd5-69e8-4403-9b06-a4349e16567b | METHOD: POST | URL: /api/documents/modify | ARGS: {'sources': [{'id': '6de9227f-c269-40fe-ae44-1a752895fe1c', 'page_number': 1}, {'id': '6de9227f-c269-40fe-ae44-1a752895fe1c', 'page_number': 1}, {'id': '6de9227f-c269-40fe-ae44-1a752895fe1c', 'page_number': 1}, {'id': '6de9227f-c269-40fe-ae44-1a752895fe1c', 'page_number': 1}]}
+2022-02-19 22:17:44,500 - USER_ID: a3a95cd5-69e8-4403-9b06-a4349e16567b | METHOD: GET | URL: /api/documents/5d1778db-750b-49c6-af64-5cfab445844d | ARGS: {}
+2022-02-19 22:23:54,444 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-19 22:23:54,755 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-19 22:23:55,194 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-19 22:23:55,358 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-19 22:23:55,555 - USER_ID: e2b531cd-3c09-41c4-a4eb-41f26edda3f2 | METHOD: POST | URL: /api/documents/ | 
+2022-02-19 22:23:55,643 - USER_ID: e2b531cd-3c09-41c4-a4eb-41f26edda3f2 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-19 22:23:55,655 - USER_ID: e2b531cd-3c09-41c4-a4eb-41f26edda3f2 | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-19 22:23:55,665 - USER_ID: e2b531cd-3c09-41c4-a4eb-41f26edda3f2 | METHOD: GET | URL: /api/documents/21a2a072-f980-4478-8d58-aa5dcffdc9fd | ARGS: {'body': ['0']}
+2022-02-19 22:23:55,678 - USER_ID: ac8f9180-94f7-4794-971b-4522193f584c | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 0, 'user_id': 'e2b531cd-3c09-41c4-a4eb-41f26edda3f2'}
+2022-02-19 22:23:55,688 - USER_ID: e2b531cd-3c09-41c4-a4eb-41f26edda3f2 | METHOD: POST | URL: /api/documents/21a2a072-f980-4478-8d58-aa5dcffdc9fd/convert | ARGS: {}
+2022-02-19 22:24:27,239 - USER_ID: e2b531cd-3c09-41c4-a4eb-41f26edda3f2 | METHOD: GET | URL: /api/documents/21a2a072-f980-4478-8d58-aa5dcffdc9fd/previews | ARGS: {}
+2022-02-19 22:24:27,553 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-19 22:24:27,856 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-19 22:24:28,202 - USER_ID: b44eb5bc-91fb-46ab-a83c-e90f54a24436 | METHOD: POST | URL: /api/documents/ | 
+2022-02-19 22:24:44,740 - USER_ID: b44eb5bc-91fb-46ab-a83c-e90f54a24436 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-19 22:24:44,765 - USER_ID: b44eb5bc-91fb-46ab-a83c-e90f54a24436 | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-19 22:24:44,806 - USER_ID: b44eb5bc-91fb-46ab-a83c-e90f54a24436 | METHOD: GET | URL: /api/documents/b827674a-c122-401f-97fb-98c9a4786440 | ARGS: {'body': ['0']}
+2022-02-19 22:24:44,829 - USER_ID: b44eb5bc-91fb-46ab-a83c-e90f54a24436 | METHOD: POST | URL: /api/documents/b827674a-c122-401f-97fb-98c9a4786440/split | ARGS: {'pages': [1, 3, 6, 10]}
+2022-02-19 22:24:52,503 - USER_ID: b44eb5bc-91fb-46ab-a83c-e90f54a24436 | METHOD: POST | URL: /api/documents/merge | ARGS: {'sources': [{'id': 'b827674a-c122-401f-97fb-98c9a4786440'}, {'id': 'bfa6d67b-c9af-4809-b55d-889595d3774b'}]}
+2022-02-19 22:25:17,219 - USER_ID: b44eb5bc-91fb-46ab-a83c-e90f54a24436 | METHOD: GET | URL: /api/documents/b827674a-c122-401f-97fb-98c9a4786440/download | ARGS: {'body': ['0']}
+2022-02-19 22:25:17,280 - USER_ID: b44eb5bc-91fb-46ab-a83c-e90f54a24436 | METHOD: GET | URL: /api/documents/b827674a-c122-401f-97fb-98c9a4786440/download | ARGS: {'body': ['0']}
+2022-02-19 22:25:17,336 - USER_ID: b44eb5bc-91fb-46ab-a83c-e90f54a24436 | METHOD: GET | URL: /api/documents/a3244eca-6913-4782-a2f5-036291edf2dc/download | ARGS: {'body': ['0']}
+2022-02-19 22:25:17,374 - USER_ID: b44eb5bc-91fb-46ab-a83c-e90f54a24436 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-19 22:25:17,385 - USER_ID: 3d4571f9-b467-48b8-9879-e0ba9f4ca94b | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': 'b44eb5bc-91fb-46ab-a83c-e90f54a24436'}
+2022-02-19 22:25:17,394 - USER_ID: b44eb5bc-91fb-46ab-a83c-e90f54a24436 | METHOD: GET | URL: /api/documents/a3244eca-6913-4782-a2f5-036291edf2dc/download | ARGS: {'body': ['0']}
+2022-02-19 22:25:17,641 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-19 22:25:17,810 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-19 22:25:17,993 - USER_ID: 4615b9bb-1226-4e18-b03b-c3de7ed5ba97 | METHOD: POST | URL: /api/documents/ | 
+2022-02-19 22:25:34,628 - USER_ID: 4615b9bb-1226-4e18-b03b-c3de7ed5ba97 | METHOD: POST | URL: /api/documents/346451a8-fa0b-4f20-98e8-f6429e38c55b/split | ARGS: {'pages': [1, 2, 5]}
+2022-02-19 22:25:40,425 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-19 22:25:40,593 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-19 22:25:40,999 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-19 22:25:41,166 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-19 22:25:41,330 - USER_ID: anonymous | METHOD: POST | URL: /api/users/register | ARGS: {'login': 'ivan', 'email': 'ivanperovsky@gmail.com', 'password': '1234'}
+2022-02-19 22:25:41,500 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-02-19 22:25:41,663 - USER_ID: c2671fdc-3bdd-4c5e-bcc4-7feb907b3ead | METHOD: POST | URL: /api/users/register | ARGS: {'email': 'test@gmail.com', 'password': '12345'}
+2022-02-19 22:25:41,832 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test@gmail.com', 'password': '1234'}
+2022-02-19 22:25:42,107 - USER_ID: b59d5053-7940-4387-bab5-61ff25f72d77 | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test2@gmail.com', 'password': '1234'}
+2022-02-19 22:25:42,113 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan', 'password': '1234'}
+2022-02-19 22:25:42,598 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-19 22:25:42,850 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-19 22:25:43,216 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-02-19 22:25:43,475 - USER_ID: 3dfb2d2e-0c72-4edb-8f44-72433e558823 | METHOD: POST | URL: /api/users/login_phone | ARGS: {'phone': '79312972206'}
+2022-02-19 22:28:41,259 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-19 22:28:41,503 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-19 22:28:41,929 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-19 22:28:42,106 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-19 22:28:42,359 - USER_ID: 66e19da7-13f4-4713-ab24-d8aec7e64616 | METHOD: POST | URL: /api/documents/ | 
+2022-02-19 22:28:42,427 - USER_ID: 66e19da7-13f4-4713-ab24-d8aec7e64616 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-19 22:28:42,439 - USER_ID: 66e19da7-13f4-4713-ab24-d8aec7e64616 | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-19 22:28:42,450 - USER_ID: 66e19da7-13f4-4713-ab24-d8aec7e64616 | METHOD: GET | URL: /api/documents/b745b461-e69c-483f-8809-1eec8b3b90f8 | ARGS: {'body': ['0']}
+2022-02-19 22:28:42,462 - USER_ID: 82f64a37-174d-486b-8afe-0cf53160d578 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 0, 'user_id': '66e19da7-13f4-4713-ab24-d8aec7e64616'}
+2022-02-19 22:28:42,471 - USER_ID: 66e19da7-13f4-4713-ab24-d8aec7e64616 | METHOD: POST | URL: /api/documents/b745b461-e69c-483f-8809-1eec8b3b90f8/convert | ARGS: {}
+2022-02-19 22:29:09,647 - USER_ID: 66e19da7-13f4-4713-ab24-d8aec7e64616 | METHOD: GET | URL: /api/documents/b745b461-e69c-483f-8809-1eec8b3b90f8/previews | ARGS: {}
+2022-02-19 22:29:09,669 - USER_ID: 66e19da7-13f4-4713-ab24-d8aec7e64616 | METHOD: GET | URL: /api/documents/2e32083d-6c15-437e-9d98-cdeaa29ebd97/previews | ARGS: {}
+2022-02-19 22:29:09,704 - USER_ID: 66e19da7-13f4-4713-ab24-d8aec7e64616 | METHOD: GET | URL: /api/documents/2e32083d-6c15-437e-9d98-cdeaa29ebd97 | ARGS: {'body': ['0']}
+2022-02-19 22:29:09,713 - USER_ID: 66e19da7-13f4-4713-ab24-d8aec7e64616 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-19 22:29:09,725 - USER_ID: 66e19da7-13f4-4713-ab24-d8aec7e64616 | METHOD: GET | URL: /api/documents/ | ARGS: {'document_type': ['1']}
+2022-02-19 22:29:09,736 - USER_ID: 82f64a37-174d-486b-8afe-0cf53160d578 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': '66e19da7-13f4-4713-ab24-d8aec7e64616'}
+2022-02-19 22:29:09,751 - USER_ID: 66e19da7-13f4-4713-ab24-d8aec7e64616 | METHOD: POST | URL: /api/documents/ | 
+2022-02-19 22:29:09,782 - USER_ID: 66e19da7-13f4-4713-ab24-d8aec7e64616 | METHOD: POST | URL: /api/documents/b745b461-e69c-483f-8809-1eec8b3b90f8/convert | ARGS: {}
+2022-02-19 22:29:35,955 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-19 22:29:36,120 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-19 22:29:36,305 - USER_ID: d89a72aa-e0f4-43fe-ad03-597cb776424c | METHOD: POST | URL: /api/documents/ | 
+2022-02-19 22:29:53,237 - USER_ID: d89a72aa-e0f4-43fe-ad03-597cb776424c | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-19 22:29:53,254 - USER_ID: d89a72aa-e0f4-43fe-ad03-597cb776424c | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-19 22:29:53,280 - USER_ID: d89a72aa-e0f4-43fe-ad03-597cb776424c | METHOD: GET | URL: /api/documents/66f9f689-a304-4c6f-b5e6-1a8f2073c954 | ARGS: {'body': ['0']}
+2022-02-19 22:29:53,296 - USER_ID: d89a72aa-e0f4-43fe-ad03-597cb776424c | METHOD: POST | URL: /api/documents/66f9f689-a304-4c6f-b5e6-1a8f2073c954/split | ARGS: {'pages': [1, 3, 6, 10]}
+2022-02-19 22:30:00,979 - USER_ID: d89a72aa-e0f4-43fe-ad03-597cb776424c | METHOD: POST | URL: /api/documents/merge | ARGS: {'sources': [{'id': '66f9f689-a304-4c6f-b5e6-1a8f2073c954'}, {'id': '0675d119-790d-41a1-8125-bc52e785cb5d'}]}
+2022-02-19 22:30:26,020 - USER_ID: d89a72aa-e0f4-43fe-ad03-597cb776424c | METHOD: GET | URL: /api/documents/66f9f689-a304-4c6f-b5e6-1a8f2073c954/download | ARGS: {'body': ['0']}
+2022-02-19 22:30:26,068 - USER_ID: d89a72aa-e0f4-43fe-ad03-597cb776424c | METHOD: GET | URL: /api/documents/66f9f689-a304-4c6f-b5e6-1a8f2073c954/download | ARGS: {'body': ['0']}
+2022-02-19 22:30:26,126 - USER_ID: d89a72aa-e0f4-43fe-ad03-597cb776424c | METHOD: GET | URL: /api/documents/1b3f33aa-0d99-4523-92a2-b8ae7290cf79/download | ARGS: {'body': ['0']}
+2022-02-19 22:30:26,160 - USER_ID: d89a72aa-e0f4-43fe-ad03-597cb776424c | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-19 22:30:26,169 - USER_ID: 57044dbd-dd6d-4007-b79f-5dbd9d46bc5b | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': 'd89a72aa-e0f4-43fe-ad03-597cb776424c'}
+2022-02-19 22:30:26,180 - USER_ID: d89a72aa-e0f4-43fe-ad03-597cb776424c | METHOD: GET | URL: /api/documents/1b3f33aa-0d99-4523-92a2-b8ae7290cf79/download | ARGS: {'body': ['0']}
+2022-02-19 22:30:26,428 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-19 22:30:26,592 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-19 22:30:26,851 - USER_ID: 686825e3-81ac-47a1-8a2a-b494f61b7878 | METHOD: POST | URL: /api/documents/ | 
+2022-02-19 22:30:44,324 - USER_ID: 686825e3-81ac-47a1-8a2a-b494f61b7878 | METHOD: POST | URL: /api/documents/5587fd0d-dbe8-4921-a7f2-49371c4bb7df/split | ARGS: {'pages': [1, 2, 5]}
+2022-02-19 22:30:49,509 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-19 22:30:49,747 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 16:09:17,505 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 16:09:17,958 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 16:09:18,389 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 16:09:18,602 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 16:09:18,925 - USER_ID: 0a4e6917-f33a-4256-9bca-1bbd0974f9d9 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 16:09:19,033 - USER_ID: 0a4e6917-f33a-4256-9bca-1bbd0974f9d9 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-20 16:09:19,047 - USER_ID: 0a4e6917-f33a-4256-9bca-1bbd0974f9d9 | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-20 16:09:19,058 - USER_ID: 0a4e6917-f33a-4256-9bca-1bbd0974f9d9 | METHOD: GET | URL: /api/documents/227069e2-8980-4236-b573-79496a7834da | ARGS: {'body': ['0']}
+2022-02-20 16:09:19,070 - USER_ID: e86b5b25-c932-4996-bce9-553e38265366 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 0, 'user_id': '0a4e6917-f33a-4256-9bca-1bbd0974f9d9'}
+2022-02-20 16:09:19,081 - USER_ID: 0a4e6917-f33a-4256-9bca-1bbd0974f9d9 | METHOD: POST | URL: /api/documents/227069e2-8980-4236-b573-79496a7834da/convert | ARGS: {}
+2022-02-20 16:10:22,704 - USER_ID: 0a4e6917-f33a-4256-9bca-1bbd0974f9d9 | METHOD: GET | URL: /api/documents/227069e2-8980-4236-b573-79496a7834da/previews | ARGS: {}
+2022-02-20 16:10:22,737 - USER_ID: 0a4e6917-f33a-4256-9bca-1bbd0974f9d9 | METHOD: GET | URL: /api/documents/5b0b5e95-cd29-4023-9f4e-caec456fab2d/previews | ARGS: {}
+2022-02-20 16:10:22,777 - USER_ID: 0a4e6917-f33a-4256-9bca-1bbd0974f9d9 | METHOD: GET | URL: /api/documents/5b0b5e95-cd29-4023-9f4e-caec456fab2d | ARGS: {'body': ['0']}
+2022-02-20 16:10:22,786 - USER_ID: 0a4e6917-f33a-4256-9bca-1bbd0974f9d9 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-20 16:10:22,807 - USER_ID: 0a4e6917-f33a-4256-9bca-1bbd0974f9d9 | METHOD: GET | URL: /api/documents/ | ARGS: {'document_type': ['1']}
+2022-02-20 16:10:22,838 - USER_ID: e86b5b25-c932-4996-bce9-553e38265366 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': '0a4e6917-f33a-4256-9bca-1bbd0974f9d9'}
+2022-02-20 16:10:22,871 - USER_ID: 0a4e6917-f33a-4256-9bca-1bbd0974f9d9 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 16:10:22,929 - USER_ID: 0a4e6917-f33a-4256-9bca-1bbd0974f9d9 | METHOD: POST | URL: /api/documents/227069e2-8980-4236-b573-79496a7834da/convert | ARGS: {}
+2022-02-20 16:10:54,295 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 16:10:54,517 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 16:10:54,761 - USER_ID: ed35fabe-10aa-4daf-870f-3addfe0ee2ed | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 16:11:15,987 - USER_ID: ed35fabe-10aa-4daf-870f-3addfe0ee2ed | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-20 16:11:16,030 - USER_ID: ed35fabe-10aa-4daf-870f-3addfe0ee2ed | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-20 16:11:16,099 - USER_ID: ed35fabe-10aa-4daf-870f-3addfe0ee2ed | METHOD: GET | URL: /api/documents/477b1b7d-e96d-418b-a9b6-f04737800954 | ARGS: {'body': ['0']}
+2022-02-20 16:11:16,141 - USER_ID: ed35fabe-10aa-4daf-870f-3addfe0ee2ed | METHOD: POST | URL: /api/documents/477b1b7d-e96d-418b-a9b6-f04737800954/split | ARGS: {'pages': [1, 3, 6, 10]}
+2022-02-20 16:11:25,281 - USER_ID: ed35fabe-10aa-4daf-870f-3addfe0ee2ed | METHOD: POST | URL: /api/documents/merge | ARGS: {'sources': [{'id': '477b1b7d-e96d-418b-a9b6-f04737800954'}, {'id': 'dc37a341-bc7f-4b77-91a2-1189b55d92d9'}]}
+2022-02-20 16:11:26,044 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 16:11:26,245 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 16:11:26,499 - USER_ID: a5e826b8-4894-46dc-b4a0-169a8acf4f87 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 16:11:46,625 - USER_ID: a5e826b8-4894-46dc-b4a0-169a8acf4f87 | METHOD: POST | URL: /api/documents/5eec3a12-af35-4207-adec-229f7e2e84a8/split | ARGS: {'pages': [1, 2, 5]}
+2022-02-20 16:11:52,876 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 16:11:53,069 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 16:11:53,508 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 16:11:53,690 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 16:11:53,875 - USER_ID: anonymous | METHOD: POST | URL: /api/users/register | ARGS: {'login': 'ivan', 'email': 'ivanperovsky@gmail.com', 'password': '1234'}
+2022-02-20 16:11:54,054 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-02-20 16:11:54,275 - USER_ID: 67654bb3-1632-42dc-bec6-791db0496014 | METHOD: POST | URL: /api/users/register | ARGS: {'email': 'test@gmail.com', 'password': '12345'}
+2022-02-20 16:11:54,453 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test@gmail.com', 'password': '1234'}
+2022-02-20 16:11:54,683 - USER_ID: 062eca4d-a0e1-4878-8339-e5ee583062cc | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test2@gmail.com', 'password': '1234'}
+2022-02-20 16:11:54,688 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan', 'password': '1234'}
+2022-02-20 16:11:55,052 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 16:11:55,488 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 16:11:55,910 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-02-20 16:11:56,214 - USER_ID: 26f09aa9-2214-4b3b-8c69-1ed490677e10 | METHOD: POST | URL: /api/users/login_phone | ARGS: {'phone': '79312972206'}
+2022-02-20 18:35:43,050 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '333'}
+2022-02-20 19:43:55,794 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 19:43:56,256 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 19:43:56,726 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 19:43:56,922 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 19:43:57,238 - USER_ID: ad631a74-8475-4656-892b-4358851412f4 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 19:43:57,310 - USER_ID: ad631a74-8475-4656-892b-4358851412f4 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-20 19:43:57,323 - USER_ID: ad631a74-8475-4656-892b-4358851412f4 | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-20 19:43:57,333 - USER_ID: ad631a74-8475-4656-892b-4358851412f4 | METHOD: GET | URL: /api/documents/728843fa-997c-4156-af57-7d3cccba3fdf | ARGS: {'body': ['0']}
+2022-02-20 19:43:57,346 - USER_ID: 28da0d8a-b898-4f64-bf19-fad858e2065b | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 0, 'user_id': 'ad631a74-8475-4656-892b-4358851412f4'}
+2022-02-20 19:43:57,356 - USER_ID: ad631a74-8475-4656-892b-4358851412f4 | METHOD: POST | URL: /api/documents/728843fa-997c-4156-af57-7d3cccba3fdf/convert | ARGS: {}
+2022-02-20 19:44:41,342 - USER_ID: ad631a74-8475-4656-892b-4358851412f4 | METHOD: GET | URL: /api/documents/728843fa-997c-4156-af57-7d3cccba3fdf/previews | ARGS: {}
+2022-02-20 19:44:41,359 - USER_ID: ad631a74-8475-4656-892b-4358851412f4 | METHOD: GET | URL: /api/documents/e36a4414-f70e-4667-a642-02aa15de13e9/previews | ARGS: {}
+2022-02-20 19:44:41,417 - USER_ID: ad631a74-8475-4656-892b-4358851412f4 | METHOD: GET | URL: /api/documents/e36a4414-f70e-4667-a642-02aa15de13e9 | ARGS: {'body': ['0']}
+2022-02-20 19:44:41,432 - USER_ID: ad631a74-8475-4656-892b-4358851412f4 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-20 19:44:41,451 - USER_ID: ad631a74-8475-4656-892b-4358851412f4 | METHOD: GET | URL: /api/documents/ | ARGS: {'document_type': ['1']}
+2022-02-20 19:44:41,481 - USER_ID: 28da0d8a-b898-4f64-bf19-fad858e2065b | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': 'ad631a74-8475-4656-892b-4358851412f4'}
+2022-02-20 19:44:41,512 - USER_ID: ad631a74-8475-4656-892b-4358851412f4 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 19:44:41,580 - USER_ID: ad631a74-8475-4656-892b-4358851412f4 | METHOD: POST | URL: /api/documents/728843fa-997c-4156-af57-7d3cccba3fdf/convert | ARGS: {}
+2022-02-20 19:45:06,569 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 19:45:06,815 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 19:45:07,117 - USER_ID: aae880ca-d2b8-4786-966e-33a9aab0bb85 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 19:45:25,824 - USER_ID: aae880ca-d2b8-4786-966e-33a9aab0bb85 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-20 19:45:25,839 - USER_ID: aae880ca-d2b8-4786-966e-33a9aab0bb85 | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-20 19:45:25,866 - USER_ID: aae880ca-d2b8-4786-966e-33a9aab0bb85 | METHOD: GET | URL: /api/documents/c49d5845-76b6-41e7-ba6c-e5fbf4e93992 | ARGS: {'body': ['0']}
+2022-02-20 19:45:25,881 - USER_ID: aae880ca-d2b8-4786-966e-33a9aab0bb85 | METHOD: POST | URL: /api/documents/c49d5845-76b6-41e7-ba6c-e5fbf4e93992/split | ARGS: {'pages': [1, 3, 6, 10]}
+2022-02-20 19:45:26,279 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 19:45:26,490 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 19:45:26,677 - USER_ID: 915ef4b7-bf89-4983-9934-2c0b5bd50e52 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 19:45:51,920 - USER_ID: 915ef4b7-bf89-4983-9934-2c0b5bd50e52 | METHOD: POST | URL: /api/documents/76c4e602-59ab-4f79-b309-138c98dd5c65/split | ARGS: {'pages': [1, 2, 5]}
+2022-02-20 19:45:52,240 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 19:45:52,419 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 19:45:52,857 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 19:45:53,048 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 19:45:53,224 - USER_ID: anonymous | METHOD: POST | URL: /api/users/register | ARGS: {'login': 'ivan', 'email': 'ivanperovsky@gmail.com', 'password': '1234'}
+2022-02-20 19:45:53,432 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-02-20 19:45:53,718 - USER_ID: 70cfeae0-09bb-40c2-aacd-75c8e50cea99 | METHOD: POST | URL: /api/users/register | ARGS: {'email': 'test@gmail.com', 'password': '12345'}
+2022-02-20 19:45:54,111 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test@gmail.com', 'password': '1234'}
+2022-02-20 19:45:54,382 - USER_ID: fa07c6b1-6d17-47a4-8d6b-4d962dc54e19 | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test2@gmail.com', 'password': '1234'}
+2022-02-20 19:45:54,388 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan', 'password': '1234'}
+2022-02-20 19:45:54,892 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 19:45:55,294 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 19:45:55,564 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-02-20 19:45:55,824 - USER_ID: a9da5923-9657-499c-9f5c-fe22741af131 | METHOD: POST | URL: /api/users/login_phone | ARGS: {'phone': '79312972206'}
+2022-02-20 19:51:30,931 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 19:51:31,191 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 19:51:31,613 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 19:51:31,800 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 19:51:32,035 - USER_ID: a3aa13ac-4091-4d2e-ab6f-1d73afcb1831 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 19:51:32,155 - USER_ID: a3aa13ac-4091-4d2e-ab6f-1d73afcb1831 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-20 19:51:32,174 - USER_ID: a3aa13ac-4091-4d2e-ab6f-1d73afcb1831 | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-20 19:51:32,195 - USER_ID: a3aa13ac-4091-4d2e-ab6f-1d73afcb1831 | METHOD: GET | URL: /api/documents/ab78abd5-0379-4f39-b6e0-5b02ef320a30 | ARGS: {'body': ['0']}
+2022-02-20 19:51:32,214 - USER_ID: d4448ccb-e324-4223-9906-a6e589fe6699 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 0, 'user_id': 'a3aa13ac-4091-4d2e-ab6f-1d73afcb1831'}
+2022-02-20 19:51:32,240 - USER_ID: a3aa13ac-4091-4d2e-ab6f-1d73afcb1831 | METHOD: POST | URL: /api/documents/ab78abd5-0379-4f39-b6e0-5b02ef320a30/convert | ARGS: {}
+2022-02-20 19:51:56,685 - USER_ID: a3aa13ac-4091-4d2e-ab6f-1d73afcb1831 | METHOD: GET | URL: /api/documents/ab78abd5-0379-4f39-b6e0-5b02ef320a30/previews | ARGS: {}
+2022-02-20 19:51:56,697 - USER_ID: a3aa13ac-4091-4d2e-ab6f-1d73afcb1831 | METHOD: GET | URL: /api/documents/f4aceb15-64be-442a-be63-47eb4957b403/previews | ARGS: {}
+2022-02-20 19:51:56,731 - USER_ID: a3aa13ac-4091-4d2e-ab6f-1d73afcb1831 | METHOD: GET | URL: /api/documents/f4aceb15-64be-442a-be63-47eb4957b403 | ARGS: {'body': ['0']}
+2022-02-20 19:51:56,741 - USER_ID: a3aa13ac-4091-4d2e-ab6f-1d73afcb1831 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-20 19:51:56,753 - USER_ID: a3aa13ac-4091-4d2e-ab6f-1d73afcb1831 | METHOD: GET | URL: /api/documents/ | ARGS: {'document_type': ['1']}
+2022-02-20 19:51:56,763 - USER_ID: d4448ccb-e324-4223-9906-a6e589fe6699 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': 'a3aa13ac-4091-4d2e-ab6f-1d73afcb1831'}
+2022-02-20 19:51:56,778 - USER_ID: a3aa13ac-4091-4d2e-ab6f-1d73afcb1831 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 19:51:56,807 - USER_ID: a3aa13ac-4091-4d2e-ab6f-1d73afcb1831 | METHOD: POST | URL: /api/documents/ab78abd5-0379-4f39-b6e0-5b02ef320a30/convert | ARGS: {}
+2022-02-20 19:52:20,850 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 19:52:21,019 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 19:52:21,216 - USER_ID: 697acd87-d574-40a2-a17c-53f43e456bc2 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 19:52:39,589 - USER_ID: 697acd87-d574-40a2-a17c-53f43e456bc2 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-20 19:52:39,604 - USER_ID: 697acd87-d574-40a2-a17c-53f43e456bc2 | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-20 19:52:39,630 - USER_ID: 697acd87-d574-40a2-a17c-53f43e456bc2 | METHOD: GET | URL: /api/documents/1107ea34-e6d7-4f49-835b-36a5d6e986cb | ARGS: {'body': ['0']}
+2022-02-20 19:52:39,647 - USER_ID: 697acd87-d574-40a2-a17c-53f43e456bc2 | METHOD: POST | URL: /api/documents/1107ea34-e6d7-4f49-835b-36a5d6e986cb/split | ARGS: {'pages': [1, 3, 6, 10]}
+2022-02-20 19:52:46,909 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 19:52:47,094 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 19:52:47,359 - USER_ID: 654a7b04-37a2-4b5c-a9a3-c1886ae64efa | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 19:53:05,795 - USER_ID: 654a7b04-37a2-4b5c-a9a3-c1886ae64efa | METHOD: POST | URL: /api/documents/aa473914-75a4-4d9f-9d18-9b6ae84ea360/split | ARGS: {'pages': [1, 2, 5]}
+2022-02-20 19:53:12,640 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 19:53:12,819 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:00:38,259 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:00:38,602 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:00:39,033 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:00:39,219 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:00:39,416 - USER_ID: 3f739e1f-d293-4b22-905b-3c25397946ae | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:00:39,510 - USER_ID: 3f739e1f-d293-4b22-905b-3c25397946ae | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-20 20:00:39,531 - USER_ID: 3f739e1f-d293-4b22-905b-3c25397946ae | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-20 20:00:39,551 - USER_ID: 3f739e1f-d293-4b22-905b-3c25397946ae | METHOD: GET | URL: /api/documents/dd0e049a-1ac4-48bb-86f7-faf96ee9155c | ARGS: {'body': ['0']}
+2022-02-20 20:00:39,568 - USER_ID: c6e5f4e6-13d5-4f73-aa42-4fc62eda9ba5 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 0, 'user_id': '3f739e1f-d293-4b22-905b-3c25397946ae'}
+2022-02-20 20:00:39,589 - USER_ID: 3f739e1f-d293-4b22-905b-3c25397946ae | METHOD: POST | URL: /api/documents/dd0e049a-1ac4-48bb-86f7-faf96ee9155c/convert | ARGS: {}
+2022-02-20 20:01:08,897 - USER_ID: 3f739e1f-d293-4b22-905b-3c25397946ae | METHOD: GET | URL: /api/documents/dd0e049a-1ac4-48bb-86f7-faf96ee9155c/previews | ARGS: {}
+2022-02-20 20:01:08,909 - USER_ID: 3f739e1f-d293-4b22-905b-3c25397946ae | METHOD: GET | URL: /api/documents/076aa6a6-1c69-401b-b680-a2d81c3a7395/previews | ARGS: {}
+2022-02-20 20:01:08,946 - USER_ID: 3f739e1f-d293-4b22-905b-3c25397946ae | METHOD: GET | URL: /api/documents/076aa6a6-1c69-401b-b680-a2d81c3a7395 | ARGS: {'body': ['0']}
+2022-02-20 20:01:08,957 - USER_ID: 3f739e1f-d293-4b22-905b-3c25397946ae | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-20 20:01:08,970 - USER_ID: 3f739e1f-d293-4b22-905b-3c25397946ae | METHOD: GET | URL: /api/documents/ | ARGS: {'document_type': ['1']}
+2022-02-20 20:01:08,980 - USER_ID: c6e5f4e6-13d5-4f73-aa42-4fc62eda9ba5 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': '3f739e1f-d293-4b22-905b-3c25397946ae'}
+2022-02-20 20:01:08,994 - USER_ID: 3f739e1f-d293-4b22-905b-3c25397946ae | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:01:09,025 - USER_ID: 3f739e1f-d293-4b22-905b-3c25397946ae | METHOD: POST | URL: /api/documents/dd0e049a-1ac4-48bb-86f7-faf96ee9155c/convert | ARGS: {}
+2022-02-20 20:01:38,937 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:01:39,104 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:01:39,297 - USER_ID: 242b88a4-18fd-4d7d-b253-d0a0ba8e7395 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:01:56,890 - USER_ID: 242b88a4-18fd-4d7d-b253-d0a0ba8e7395 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-20 20:01:56,906 - USER_ID: 242b88a4-18fd-4d7d-b253-d0a0ba8e7395 | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-20 20:01:56,934 - USER_ID: 242b88a4-18fd-4d7d-b253-d0a0ba8e7395 | METHOD: GET | URL: /api/documents/648f6a79-fac4-45c9-8262-2019c7fca3f3 | ARGS: {'body': ['0']}
+2022-02-20 20:01:56,950 - USER_ID: 242b88a4-18fd-4d7d-b253-d0a0ba8e7395 | METHOD: POST | URL: /api/documents/648f6a79-fac4-45c9-8262-2019c7fca3f3/split | ARGS: {'pages': [1, 3, 6, 10]}
+2022-02-20 20:02:05,025 - USER_ID: 242b88a4-18fd-4d7d-b253-d0a0ba8e7395 | METHOD: POST | URL: /api/documents/merge | ARGS: {'sources': [{'id': '648f6a79-fac4-45c9-8262-2019c7fca3f3'}, {'id': '7216cff3-6e3f-4210-b81e-16b98579c374'}]}
+2022-02-20 20:02:32,985 - USER_ID: 242b88a4-18fd-4d7d-b253-d0a0ba8e7395 | METHOD: GET | URL: /api/documents/648f6a79-fac4-45c9-8262-2019c7fca3f3/download | ARGS: {'body': ['0']}
+2022-02-20 20:02:33,040 - USER_ID: 242b88a4-18fd-4d7d-b253-d0a0ba8e7395 | METHOD: GET | URL: /api/documents/648f6a79-fac4-45c9-8262-2019c7fca3f3/download | ARGS: {'body': ['0']}
+2022-02-20 20:02:33,105 - USER_ID: 242b88a4-18fd-4d7d-b253-d0a0ba8e7395 | METHOD: GET | URL: /api/documents/5d8e45bd-c98d-44d2-bc3a-8f1e2c770e72/download | ARGS: {'body': ['0']}
+2022-02-20 20:02:33,179 - USER_ID: 242b88a4-18fd-4d7d-b253-d0a0ba8e7395 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-20 20:02:33,191 - USER_ID: 589cb71e-6055-4155-a74a-2900991e369d | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': '242b88a4-18fd-4d7d-b253-d0a0ba8e7395'}
+2022-02-20 20:02:33,202 - USER_ID: 242b88a4-18fd-4d7d-b253-d0a0ba8e7395 | METHOD: GET | URL: /api/documents/5d8e45bd-c98d-44d2-bc3a-8f1e2c770e72/download | ARGS: {'body': ['0']}
+2022-02-20 20:02:33,711 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:02:33,894 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:02:34,142 - USER_ID: 9dd50238-30f1-42d5-b57b-2ac488a835c5 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:03:00,371 - USER_ID: 9dd50238-30f1-42d5-b57b-2ac488a835c5 | METHOD: POST | URL: /api/documents/f3c03210-8743-4461-95c7-91f6bdc268d9/split | ARGS: {'pages': [1, 2, 5]}
+2022-02-20 20:03:05,563 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:03:05,734 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:22:40,449 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:22:40,697 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:22:41,130 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:22:41,329 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:22:41,519 - USER_ID: 1ae07d76-9dfd-4f9c-af45-5811c496456b | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:22:42,305 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:22:42,526 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:22:42,713 - USER_ID: 0b6a4e2b-f376-4d07-822a-24dee3cc4b77 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:22:48,406 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:22:48,575 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:22:48,801 - USER_ID: 18b9f3b7-04be-4a89-99bd-f1b387567f77 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:22:53,820 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:22:54,155 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:25:10,179 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:25:10,369 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:25:10,757 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:25:10,964 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:25:11,194 - USER_ID: 0a191709-858d-469a-987f-783cc17bdda5 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:25:11,478 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:25:11,654 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:25:11,916 - USER_ID: e2b29df1-4c76-47ba-8b87-2259545893ec | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:25:12,553 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:25:12,723 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:25:12,970 - USER_ID: 7e98632e-42be-475f-ae59-b7d3d303ce17 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:25:14,145 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:25:14,442 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:27:36,490 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:27:36,673 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:27:37,067 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:27:37,244 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:27:37,430 - USER_ID: b2088e91-5174-4054-b2f5-a0d1032d2c9a | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:27:37,967 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:27:38,181 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:27:38,372 - USER_ID: 3dedf0d2-f3a2-402e-aba1-2d580f469ba5 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:29:20,647 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:29:21,126 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:29:22,226 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:29:22,832 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:29:23,900 - USER_ID: 59019cff-dddf-48dc-9ff9-e4d04d789b83 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:29:24,982 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:29:25,165 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:29:25,423 - USER_ID: 96b8ec70-8bc7-4184-8b82-5972693392c9 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:29:32,322 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:29:32,491 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:29:32,679 - USER_ID: 6b6fb168-76ab-469e-bada-044055d4cbe1 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:29:39,018 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:29:39,215 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:31:07,396 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:31:07,593 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:31:08,010 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:31:08,182 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:31:08,357 - USER_ID: 40098320-4765-4a4b-bb8a-f8ee6316eb10 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:31:09,017 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:31:09,230 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:31:09,420 - USER_ID: 78cb9b4d-59f1-4d55-a4a2-284a9b04ef91 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:31:16,186 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:31:16,353 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:31:16,620 - USER_ID: 2b7c3dc3-af7a-4150-999d-c76694c90edf | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:31:23,188 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:31:23,445 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:33:12,411 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:33:12,595 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:33:12,938 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:33:13,126 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:33:13,332 - USER_ID: db417031-478f-4060-98a8-5735a909c2de | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:33:13,865 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:33:14,147 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:33:14,513 - USER_ID: b40166a7-7e28-4350-87c3-fc10769c5ed6 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:33:17,752 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:33:17,966 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:33:18,154 - USER_ID: cc7cf81b-a74b-4cb9-8f26-fb26d0b5ed01 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:33:20,230 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:33:20,413 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:35:06,820 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:35:07,004 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:35:07,413 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:35:07,580 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:35:07,771 - USER_ID: 98a98044-9e71-4411-89a2-00b50930b0bb | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:35:08,270 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:35:08,517 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:35:08,708 - USER_ID: a4c693e5-9e31-47a1-8ac9-853117c603de | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:38:40,653 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:38:40,821 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:38:41,093 - USER_ID: 228a8a9b-46f5-49ea-abcb-7c3197b1b397 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:50:28,525 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:50:28,725 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:50:29,232 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:50:29,401 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:50:29,612 - USER_ID: 2196dc86-9628-4cee-a897-f54f8b8bc6a9 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:50:30,229 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:50:30,401 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:50:30,615 - USER_ID: 7921317a-e58f-4c05-9f83-1ef0521335cf | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:50:32,598 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:50:33,001 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:50:33,492 - USER_ID: f2128ca3-81ce-4a20-b1bb-86bfa679bc19 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:50:34,761 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:50:34,968 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:52:20,039 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:52:20,221 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:52:20,629 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:52:20,796 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:52:21,006 - USER_ID: 7dbdd15e-7ff3-410f-9b4d-813915bba196 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 20:52:21,403 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 20:52:21,610 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 20:52:21,806 - USER_ID: 55c2ec8e-1d0d-4863-9a51-9358cd567a77 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 21:04:34,954 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 21:04:35,368 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 21:04:35,802 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 21:04:36,009 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 21:04:36,231 - USER_ID: a011e0cc-41bd-457c-8915-4bd2077a4062 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 21:04:37,014 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 21:04:37,211 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 21:04:37,426 - USER_ID: d30be9b8-1167-4db9-9939-33f7bd1667c8 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 21:05:22,321 - USER_ID: d30be9b8-1167-4db9-9939-33f7bd1667c8 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-20 21:05:22,502 - USER_ID: d30be9b8-1167-4db9-9939-33f7bd1667c8 | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-20 21:05:22,549 - USER_ID: d30be9b8-1167-4db9-9939-33f7bd1667c8 | METHOD: GET | URL: /api/documents/c3b943af-52d6-4b60-8b0c-bc8e5e54973b | ARGS: {'body': ['0']}
+2022-02-20 21:05:22,600 - USER_ID: d30be9b8-1167-4db9-9939-33f7bd1667c8 | METHOD: POST | URL: /api/documents/c3b943af-52d6-4b60-8b0c-bc8e5e54973b/split | ARGS: {'pages': [1, 3, 6, 10]}
+2022-02-20 21:05:30,998 - USER_ID: d30be9b8-1167-4db9-9939-33f7bd1667c8 | METHOD: POST | URL: /api/documents/merge | ARGS: {'sources': [{'id': 'c3b943af-52d6-4b60-8b0c-bc8e5e54973b'}, {'id': 'dc68ebb7-862a-4768-b460-f3bdf55a9b22'}]}
+2022-02-20 21:05:57,902 - USER_ID: d30be9b8-1167-4db9-9939-33f7bd1667c8 | METHOD: GET | URL: /api/documents/c3b943af-52d6-4b60-8b0c-bc8e5e54973b/download | ARGS: {'body': ['0']}
+2022-02-20 21:05:57,987 - USER_ID: d30be9b8-1167-4db9-9939-33f7bd1667c8 | METHOD: GET | URL: /api/documents/c3b943af-52d6-4b60-8b0c-bc8e5e54973b/download | ARGS: {'body': ['0']}
+2022-02-20 21:05:58,083 - USER_ID: d30be9b8-1167-4db9-9939-33f7bd1667c8 | METHOD: GET | URL: /api/documents/a55964f9-59df-42b2-bdb4-779942b26262/download | ARGS: {'body': ['0']}
+2022-02-20 21:05:58,143 - USER_ID: d30be9b8-1167-4db9-9939-33f7bd1667c8 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-20 21:05:58,161 - USER_ID: 7cdbc243-01fd-4837-96e4-c1bdb2d8f8c4 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': 'd30be9b8-1167-4db9-9939-33f7bd1667c8'}
+2022-02-20 21:05:58,180 - USER_ID: d30be9b8-1167-4db9-9939-33f7bd1667c8 | METHOD: GET | URL: /api/documents/a55964f9-59df-42b2-bdb4-779942b26262/download | ARGS: {'body': ['0']}
+2022-02-20 21:05:59,070 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 21:05:59,348 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 21:05:59,816 - USER_ID: b6d2b3bf-79cc-4df5-9b43-bec2491ae065 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 21:06:18,954 - USER_ID: b6d2b3bf-79cc-4df5-9b43-bec2491ae065 | METHOD: POST | URL: /api/documents/eef4a04e-eb42-4c14-a43d-e9cb2645d58a/split | ARGS: {'pages': [1, 2, 5]}
+2022-02-20 21:06:25,570 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 21:06:25,851 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 21:24:20,209 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 21:24:20,398 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 21:24:20,779 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 21:24:20,986 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 21:24:21,285 - USER_ID: 804ed662-4fe6-41cf-825e-f16461e77f11 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 21:24:22,002 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 21:24:22,173 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 21:24:22,620 - USER_ID: b842985a-fc6f-4175-8596-03e5103bda57 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 21:25:08,801 - USER_ID: b842985a-fc6f-4175-8596-03e5103bda57 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-20 21:25:08,930 - USER_ID: b842985a-fc6f-4175-8596-03e5103bda57 | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-20 21:25:08,958 - USER_ID: b842985a-fc6f-4175-8596-03e5103bda57 | METHOD: GET | URL: /api/documents/183a0410-468c-4622-825d-42599996cc3f | ARGS: {'body': ['0']}
+2022-02-20 21:25:08,974 - USER_ID: b842985a-fc6f-4175-8596-03e5103bda57 | METHOD: POST | URL: /api/documents/183a0410-468c-4622-825d-42599996cc3f/split | ARGS: {'pages': [1, 3, 6, 10]}
+2022-02-20 21:25:16,954 - USER_ID: b842985a-fc6f-4175-8596-03e5103bda57 | METHOD: POST | URL: /api/documents/merge | ARGS: {'sources': [{'id': '183a0410-468c-4622-825d-42599996cc3f'}, {'id': '5dc227d7-3745-4e3e-9c3e-1ddcb811fea6'}]}
+2022-02-20 21:25:39,663 - USER_ID: b842985a-fc6f-4175-8596-03e5103bda57 | METHOD: GET | URL: /api/documents/183a0410-468c-4622-825d-42599996cc3f/download | ARGS: {'body': ['0']}
+2022-02-20 21:25:39,725 - USER_ID: b842985a-fc6f-4175-8596-03e5103bda57 | METHOD: GET | URL: /api/documents/183a0410-468c-4622-825d-42599996cc3f/download | ARGS: {'body': ['0']}
+2022-02-20 21:25:39,787 - USER_ID: b842985a-fc6f-4175-8596-03e5103bda57 | METHOD: GET | URL: /api/documents/43c5893b-6ca5-44b1-ba44-2d70ed98b18e/download | ARGS: {'body': ['0']}
+2022-02-20 21:25:39,830 - USER_ID: b842985a-fc6f-4175-8596-03e5103bda57 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-20 21:25:39,853 - USER_ID: 18b3de4c-7897-4fe1-b4ab-f1edfa85e4a3 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': 'b842985a-fc6f-4175-8596-03e5103bda57'}
+2022-02-20 21:25:39,865 - USER_ID: b842985a-fc6f-4175-8596-03e5103bda57 | METHOD: GET | URL: /api/documents/43c5893b-6ca5-44b1-ba44-2d70ed98b18e/download | ARGS: {'body': ['0']}
+2022-02-20 21:25:40,382 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 21:25:40,581 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 21:25:40,767 - USER_ID: 0a5d907b-e195-4b72-a01c-3856f5f31dec | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 21:25:56,998 - USER_ID: 0a5d907b-e195-4b72-a01c-3856f5f31dec | METHOD: POST | URL: /api/documents/6c966f26-e397-416d-b67d-fa763e229978/split | ARGS: {'pages': [1, 2, 5]}
+2022-02-20 21:26:02,242 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 21:26:02,420 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 21:33:56,362 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 21:35:12,657 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 21:35:12,842 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 21:35:13,053 - USER_ID: b9cbf62f-2a73-4f3b-b6c7-e3f5359c95f8 | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 21:43:28,957 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-20 21:43:29,363 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-20 21:43:29,752 - USER_ID: bc5ae79b-b2ba-4c33-a713-435a6637d3cf | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 21:43:35,119 - USER_ID: bc5ae79b-b2ba-4c33-a713-435a6637d3cf | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-20 21:43:35,145 - USER_ID: bc5ae79b-b2ba-4c33-a713-435a6637d3cf | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-20 21:43:35,156 - USER_ID: bc5ae79b-b2ba-4c33-a713-435a6637d3cf | METHOD: GET | URL: /api/documents/27b770cb-f811-4740-874a-875b360c6514 | ARGS: {'body': ['0']}
+2022-02-20 21:43:35,167 - USER_ID: d682883e-c96d-4569-aa57-0d1b52cc782f | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 0, 'user_id': 'bc5ae79b-b2ba-4c33-a713-435a6637d3cf'}
+2022-02-20 21:43:35,176 - USER_ID: bc5ae79b-b2ba-4c33-a713-435a6637d3cf | METHOD: POST | URL: /api/documents/27b770cb-f811-4740-874a-875b360c6514/convert | ARGS: {}
+2022-02-20 21:44:00,305 - USER_ID: bc5ae79b-b2ba-4c33-a713-435a6637d3cf | METHOD: GET | URL: /api/documents/27b770cb-f811-4740-874a-875b360c6514/previews | ARGS: {}
+2022-02-20 21:44:00,317 - USER_ID: bc5ae79b-b2ba-4c33-a713-435a6637d3cf | METHOD: GET | URL: /api/documents/846b61f6-0495-4ecb-b422-d5b1100a7ea2/previews | ARGS: {}
+2022-02-20 21:44:00,355 - USER_ID: bc5ae79b-b2ba-4c33-a713-435a6637d3cf | METHOD: GET | URL: /api/documents/846b61f6-0495-4ecb-b422-d5b1100a7ea2 | ARGS: {'body': ['0']}
+2022-02-20 21:44:00,365 - USER_ID: bc5ae79b-b2ba-4c33-a713-435a6637d3cf | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-20 21:44:00,379 - USER_ID: bc5ae79b-b2ba-4c33-a713-435a6637d3cf | METHOD: GET | URL: /api/documents/ | ARGS: {'document_type': ['1']}
+2022-02-20 21:44:00,388 - USER_ID: d682883e-c96d-4569-aa57-0d1b52cc782f | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': 'bc5ae79b-b2ba-4c33-a713-435a6637d3cf'}
+2022-02-20 21:44:00,403 - USER_ID: bc5ae79b-b2ba-4c33-a713-435a6637d3cf | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 21:44:01,850 - USER_ID: bc5ae79b-b2ba-4c33-a713-435a6637d3cf | METHOD: POST | URL: /api/documents/27b770cb-f811-4740-874a-875b360c6514/convert | ARGS: {}
+2022-02-20 21:46:34,218 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '333'}
+2022-02-20 21:46:57,698 - USER_ID: a3a95cd5-69e8-4403-9b06-a4349e16567b | METHOD: POST | URL: /api/documents/ | 
+2022-02-20 21:47:08,393 - USER_ID: a3a95cd5-69e8-4403-9b06-a4349e16567b | METHOD: GET | URL: /api/documents/cf46b1f3-cb0a-465a-b01f-86abcd9e4d97 | ARGS: {}
+2022-02-20 21:47:57,341 - USER_ID: a3a95cd5-69e8-4403-9b06-a4349e16567b | METHOD: GET | URL: /api/documents/cf46b1f3-cb0a-465a-b01f-86abcd9e4d97 | ARGS: {}
+2022-02-20 21:48:43,514 - USER_ID: a3a95cd5-69e8-4403-9b06-a4349e16567b | METHOD: GET | URL: /api/documents/cf46b1f3-cb0a-465a-b01f-86abcd9e4d97/previews | ARGS: {}
+2022-02-21 23:33:22,730 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-21 23:33:23,216 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-21 23:33:23,923 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-21 23:33:24,088 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-21 23:33:24,314 - USER_ID: cd594c0e-575d-4905-90fe-c28e42490520 | METHOD: POST | URL: /api/documents/ | 
+2022-02-22 06:48:35,970 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-22 06:48:36,216 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-22 06:48:36,647 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-22 06:48:36,810 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-22 06:48:37,009 - USER_ID: 6db9a283-d9ed-4036-b3ff-c1ac7c6a3aed | METHOD: POST | URL: /api/documents/ | 
+2022-02-22 06:48:51,288 - USER_ID: 6db9a283-d9ed-4036-b3ff-c1ac7c6a3aed | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-22 06:48:51,331 - USER_ID: 6db9a283-d9ed-4036-b3ff-c1ac7c6a3aed | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-22 06:48:51,341 - USER_ID: 6db9a283-d9ed-4036-b3ff-c1ac7c6a3aed | METHOD: GET | URL: /api/documents/20563709-d6a0-40af-b75b-cf92657f4d79 | ARGS: {'body': ['0']}
+2022-02-22 06:48:51,352 - USER_ID: 7ef115ae-bad5-4a43-83b6-c751eaf50e43 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 0, 'user_id': '6db9a283-d9ed-4036-b3ff-c1ac7c6a3aed'}
+2022-02-22 06:48:51,363 - USER_ID: 6db9a283-d9ed-4036-b3ff-c1ac7c6a3aed | METHOD: POST | URL: /api/documents/20563709-d6a0-40af-b75b-cf92657f4d79/convert | ARGS: {}
+2022-02-22 06:49:32,696 - USER_ID: 6db9a283-d9ed-4036-b3ff-c1ac7c6a3aed | METHOD: GET | URL: /api/documents/20563709-d6a0-40af-b75b-cf92657f4d79/previews | ARGS: {}
+2022-02-22 06:49:32,720 - USER_ID: 6db9a283-d9ed-4036-b3ff-c1ac7c6a3aed | METHOD: GET | URL: /api/documents/656487c0-66eb-4eff-9a8f-1437916f1a68/previews | ARGS: {}
+2022-02-22 06:49:32,760 - USER_ID: 6db9a283-d9ed-4036-b3ff-c1ac7c6a3aed | METHOD: GET | URL: /api/documents/656487c0-66eb-4eff-9a8f-1437916f1a68 | ARGS: {'body': ['0']}
+2022-02-22 06:49:32,769 - USER_ID: 6db9a283-d9ed-4036-b3ff-c1ac7c6a3aed | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-22 06:49:32,779 - USER_ID: 6db9a283-d9ed-4036-b3ff-c1ac7c6a3aed | METHOD: GET | URL: /api/documents/ | ARGS: {'document_type': ['1']}
+2022-02-22 06:49:32,788 - USER_ID: 7ef115ae-bad5-4a43-83b6-c751eaf50e43 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': '6db9a283-d9ed-4036-b3ff-c1ac7c6a3aed'}
+2022-02-22 06:49:32,803 - USER_ID: 6db9a283-d9ed-4036-b3ff-c1ac7c6a3aed | METHOD: POST | URL: /api/documents/ | 
+2022-02-22 06:49:34,025 - USER_ID: 6db9a283-d9ed-4036-b3ff-c1ac7c6a3aed | METHOD: POST | URL: /api/documents/20563709-d6a0-40af-b75b-cf92657f4d79/convert | ARGS: {}
+2022-02-22 06:49:59,367 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-22 06:49:59,546 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-22 06:49:59,788 - USER_ID: 6fb8e773-c56c-4e0c-9582-46333e37235f | METHOD: POST | URL: /api/documents/ | 
+2022-02-22 06:50:16,352 - USER_ID: 6fb8e773-c56c-4e0c-9582-46333e37235f | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-22 06:50:16,515 - USER_ID: 6fb8e773-c56c-4e0c-9582-46333e37235f | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-22 06:50:16,563 - USER_ID: 6fb8e773-c56c-4e0c-9582-46333e37235f | METHOD: GET | URL: /api/documents/5457e2b3-10c8-4f81-a275-92edfc89ab7c | ARGS: {'body': ['0']}
+2022-02-22 06:50:16,589 - USER_ID: 6fb8e773-c56c-4e0c-9582-46333e37235f | METHOD: POST | URL: /api/documents/5457e2b3-10c8-4f81-a275-92edfc89ab7c/split | ARGS: {'pages': [1, 3, 6, 10]}
+2022-02-22 06:50:23,707 - USER_ID: 6fb8e773-c56c-4e0c-9582-46333e37235f | METHOD: POST | URL: /api/documents/merge | ARGS: {'sources': [{'id': '5457e2b3-10c8-4f81-a275-92edfc89ab7c'}, {'id': '51bba843-80ca-42c8-8787-e22116a9facb'}]}
+2022-02-22 06:50:46,975 - USER_ID: 6fb8e773-c56c-4e0c-9582-46333e37235f | METHOD: GET | URL: /api/documents/5457e2b3-10c8-4f81-a275-92edfc89ab7c/download | ARGS: {'body': ['0']}
+2022-02-22 06:50:47,027 - USER_ID: 6fb8e773-c56c-4e0c-9582-46333e37235f | METHOD: GET | URL: /api/documents/5457e2b3-10c8-4f81-a275-92edfc89ab7c/download | ARGS: {'body': ['0']}
+2022-02-22 06:50:47,100 - USER_ID: 6fb8e773-c56c-4e0c-9582-46333e37235f | METHOD: GET | URL: /api/documents/883b43b9-9cb6-41ee-80b7-8bcf8a368074/download | ARGS: {'body': ['0']}
+2022-02-22 06:50:47,135 - USER_ID: 6fb8e773-c56c-4e0c-9582-46333e37235f | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 06:50:47,144 - USER_ID: e95459db-7018-4b7e-8e1e-0490e27bc3de | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': '6fb8e773-c56c-4e0c-9582-46333e37235f'}
+2022-02-22 06:50:47,154 - USER_ID: 6fb8e773-c56c-4e0c-9582-46333e37235f | METHOD: GET | URL: /api/documents/883b43b9-9cb6-41ee-80b7-8bcf8a368074/download | ARGS: {'body': ['0']}
+2022-02-22 06:50:47,483 - USER_ID: 6fb8e773-c56c-4e0c-9582-46333e37235f | METHOD: GET | URL: /api/users/6fb8e773-c56c-4e0c-9582-46333e37235f/profile | ARGS: {}
+2022-02-22 06:50:47,729 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-22 06:50:47,894 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-22 06:50:48,074 - USER_ID: db2103e8-6353-43b3-8498-45c0c02eea36 | METHOD: POST | URL: /api/documents/ | 
+2022-02-22 06:51:04,896 - USER_ID: db2103e8-6353-43b3-8498-45c0c02eea36 | METHOD: POST | URL: /api/documents/5cc3d83d-cd29-46f2-981f-cc1c515ee0f3/split | ARGS: {'pages': [1, 2, 5]}
+2022-02-22 06:51:10,082 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-22 06:51:10,252 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-22 06:51:10,575 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-22 06:51:10,742 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-22 06:51:10,906 - USER_ID: anonymous | METHOD: POST | URL: /api/users/register | ARGS: {'login': 'ivan', 'email': 'ivanperovsky@gmail.com', 'password': '1234'}
+2022-02-22 06:51:11,130 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-02-22 06:51:11,309 - USER_ID: ae3e7814-ee49-431b-9385-5e9e775640b6 | METHOD: POST | URL: /api/users/register | ARGS: {'email': 'test@gmail.com', 'password': '12345'}
+2022-02-22 06:51:11,472 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test@gmail.com', 'password': '1234'}
+2022-02-22 06:51:11,629 - USER_ID: 66bbcf9f-40c5-4da0-9596-d24c014419f4 | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test2@gmail.com', 'password': '1234'}
+2022-02-22 06:51:11,633 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan', 'password': '1234'}
+2022-02-22 06:51:11,944 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-22 06:51:12,105 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-22 06:51:12,338 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-02-22 06:51:12,498 - USER_ID: a903a1fb-0fac-4ef5-8a7a-853a94dac293 | METHOD: POST | URL: /api/users/login_phone | ARGS: {'phone': '79312972206'}
+2022-02-22 06:53:21,064 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '333'}
+2022-02-22 06:54:57,885 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '333'}
+2022-02-22 06:55:37,041 - USER_ID: dbe39476-f9bb-46e2-a82e-4ec8b6db7dfd | METHOD: GET | URL: /api/users/dbe39476-f9bb-46e2-a82e-4ec8b6db7dfd/profile | ARGS: {}
+2022-02-22 06:56:18,743 - USER_ID: dbe39476-f9bb-46e2-a82e-4ec8b6db7dfd | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 06:56:57,923 - USER_ID: dbe39476-f9bb-46e2-a82e-4ec8b6db7dfd | METHOD: GET | URL: /api/users/dbe39476-f9bb-46e2-a82e-4ec8b6db7dfd/profile | ARGS: {}
+2022-02-22 06:57:51,284 - USER_ID: dbe39476-f9bb-46e2-a82e-4ec8b6db7dfd | METHOD: GET | URL: /api/users/dbe39476-f9bb-46e2-a82e-4ec8b6db7dfd/profile | ARGS: {}
+2022-02-22 06:58:24,424 - USER_ID: dbe39476-f9bb-46e2-a82e-4ec8b6db7dfd | METHOD: GET | URL: /api/users/dbe39476-f9bb-46e2-a82e-4ec8b6db7dfd/profile | ARGS: {}
+2022-02-22 06:59:19,113 - USER_ID: dbe39476-f9bb-46e2-a82e-4ec8b6db7dfd | METHOD: GET | URL: /api/users/dbe39476-f9bb-46e2-a82e-4ec8b6db7dfd/profile | ARGS: {}
+2022-02-22 07:00:29,574 - USER_ID: dbe39476-f9bb-46e2-a82e-4ec8b6db7dfd | METHOD: GET | URL: /api/users/dbe39476-f9bb-46e2-a82e-4ec8b6db7dfd/profile | ARGS: {}
+2022-02-22 07:03:42,192 - USER_ID: dbe39476-f9bb-46e2-a82e-4ec8b6db7dfd | METHOD: GET | URL: /api/users/dbe39476-f9bb-46e2-a82e-4ec8b6db7dfd/profile | ARGS: {}
+2022-02-22 07:05:52,239 - USER_ID: dbe39476-f9bb-46e2-a82e-4ec8b6db7dfd | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 07:06:22,888 - USER_ID: dbe39476-f9bb-46e2-a82e-4ec8b6db7dfd | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 07:07:03,820 - USER_ID: dbe39476-f9bb-46e2-a82e-4ec8b6db7dfd | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 07:07:06,317 - USER_ID: dbe39476-f9bb-46e2-a82e-4ec8b6db7dfd | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 07:07:24,483 - USER_ID: dbe39476-f9bb-46e2-a82e-4ec8b6db7dfd | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 07:08:38,406 - USER_ID: dbe39476-f9bb-46e2-a82e-4ec8b6db7dfd | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 07:12:35,870 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-22 07:12:36,136 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-22 07:12:36,584 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-22 07:12:36,808 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-22 07:12:37,107 - USER_ID: 279876d8-2f5f-41d1-9346-53b66e44edfd | METHOD: POST | URL: /api/documents/ | 
+2022-02-22 07:12:37,638 - USER_ID: dbe39476-f9bb-46e2-a82e-4ec8b6db7dfd | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 07:12:42,461 - USER_ID: 279876d8-2f5f-41d1-9346-53b66e44edfd | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-22 07:12:42,486 - USER_ID: 279876d8-2f5f-41d1-9346-53b66e44edfd | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 07:12:42,500 - USER_ID: 279876d8-2f5f-41d1-9346-53b66e44edfd | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-22 07:12:42,515 - USER_ID: 279876d8-2f5f-41d1-9346-53b66e44edfd | METHOD: GET | URL: /api/documents/fde40382-ecfa-4f86-9ca1-33bab3d9437e | ARGS: {'body': ['0']}
+2022-02-22 07:12:42,524 - USER_ID: d9dde051-02e6-4cb3-82ed-1ed7f9ac8753 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 0, 'user_id': '279876d8-2f5f-41d1-9346-53b66e44edfd'}
+2022-02-22 07:12:42,535 - USER_ID: 279876d8-2f5f-41d1-9346-53b66e44edfd | METHOD: POST | URL: /api/documents/fde40382-ecfa-4f86-9ca1-33bab3d9437e/convert | ARGS: {}
+2022-02-22 07:13:16,838 - USER_ID: 279876d8-2f5f-41d1-9346-53b66e44edfd | METHOD: GET | URL: /api/documents/fde40382-ecfa-4f86-9ca1-33bab3d9437e/previews | ARGS: {}
+2022-02-22 07:13:16,850 - USER_ID: 279876d8-2f5f-41d1-9346-53b66e44edfd | METHOD: GET | URL: /api/documents/0ed2b2d0-72c1-4cd1-a651-ecc1b0144055/previews | ARGS: {}
+2022-02-22 07:13:16,885 - USER_ID: 279876d8-2f5f-41d1-9346-53b66e44edfd | METHOD: GET | URL: /api/documents/0ed2b2d0-72c1-4cd1-a651-ecc1b0144055 | ARGS: {'body': ['0']}
+2022-02-22 07:13:16,894 - USER_ID: 279876d8-2f5f-41d1-9346-53b66e44edfd | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-22 07:13:16,905 - USER_ID: 279876d8-2f5f-41d1-9346-53b66e44edfd | METHOD: GET | URL: /api/documents/ | ARGS: {'document_type': ['1']}
+2022-02-22 07:13:16,915 - USER_ID: d9dde051-02e6-4cb3-82ed-1ed7f9ac8753 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': '279876d8-2f5f-41d1-9346-53b66e44edfd'}
+2022-02-22 07:13:16,930 - USER_ID: 279876d8-2f5f-41d1-9346-53b66e44edfd | METHOD: POST | URL: /api/documents/ | 
+2022-02-22 07:13:18,223 - USER_ID: 279876d8-2f5f-41d1-9346-53b66e44edfd | METHOD: POST | URL: /api/documents/fde40382-ecfa-4f86-9ca1-33bab3d9437e/convert | ARGS: {}
+2022-02-22 07:13:51,875 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-22 07:13:52,093 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-22 07:13:52,281 - USER_ID: 092cbe19-391a-4ee9-bf55-be247f827e0a | METHOD: POST | URL: /api/documents/ | 
+2022-02-22 07:14:19,708 - USER_ID: 092cbe19-391a-4ee9-bf55-be247f827e0a | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-22 07:14:19,852 - USER_ID: 092cbe19-391a-4ee9-bf55-be247f827e0a | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-22 07:14:19,891 - USER_ID: 092cbe19-391a-4ee9-bf55-be247f827e0a | METHOD: GET | URL: /api/documents/7b1a1a24-c909-4620-b13a-655b9a84b206 | ARGS: {'body': ['0']}
+2022-02-22 07:14:19,915 - USER_ID: 092cbe19-391a-4ee9-bf55-be247f827e0a | METHOD: POST | URL: /api/documents/7b1a1a24-c909-4620-b13a-655b9a84b206/split | ARGS: {'pages': [1, 3, 6, 10]}
+2022-02-22 07:14:28,557 - USER_ID: 092cbe19-391a-4ee9-bf55-be247f827e0a | METHOD: POST | URL: /api/documents/merge | ARGS: {'sources': [{'id': '7b1a1a24-c909-4620-b13a-655b9a84b206'}, {'id': '27d6e09d-c81a-43f3-86f7-96e7d1afef44'}]}
+2022-02-22 07:14:56,597 - USER_ID: 092cbe19-391a-4ee9-bf55-be247f827e0a | METHOD: GET | URL: /api/documents/7b1a1a24-c909-4620-b13a-655b9a84b206/download | ARGS: {'body': ['0']}
+2022-02-22 07:14:56,649 - USER_ID: 092cbe19-391a-4ee9-bf55-be247f827e0a | METHOD: GET | URL: /api/documents/7b1a1a24-c909-4620-b13a-655b9a84b206/download | ARGS: {'body': ['0']}
+2022-02-22 07:14:56,721 - USER_ID: 092cbe19-391a-4ee9-bf55-be247f827e0a | METHOD: GET | URL: /api/documents/3a5a3881-ece0-426f-9835-c7885111dd98/download | ARGS: {'body': ['0']}
+2022-02-22 07:14:56,771 - USER_ID: 092cbe19-391a-4ee9-bf55-be247f827e0a | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 07:14:56,791 - USER_ID: a447f8fe-1304-4899-91a9-14d0683904b4 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': '092cbe19-391a-4ee9-bf55-be247f827e0a'}
+2022-02-22 07:14:56,800 - USER_ID: 092cbe19-391a-4ee9-bf55-be247f827e0a | METHOD: GET | URL: /api/documents/3a5a3881-ece0-426f-9835-c7885111dd98/download | ARGS: {'body': ['0']}
+2022-02-22 07:14:57,345 - USER_ID: 092cbe19-391a-4ee9-bf55-be247f827e0a | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 07:14:57,526 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-22 07:14:57,713 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-22 07:14:57,935 - USER_ID: e6dbc2b1-c2a4-4795-8517-e5a66fd4ba16 | METHOD: POST | URL: /api/documents/ | 
+2022-02-22 07:15:24,856 - USER_ID: e6dbc2b1-c2a4-4795-8517-e5a66fd4ba16 | METHOD: POST | URL: /api/documents/b72a23eb-e84d-4e12-8f5f-bc92a073a496/split | ARGS: {'pages': [1, 2, 5]}
+2022-02-22 07:15:32,005 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-22 07:15:32,323 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-22 07:16:59,994 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-22 07:17:00,180 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-22 07:17:00,561 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-22 07:17:00,727 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-22 07:17:00,910 - USER_ID: 3e4b267e-2281-41b4-91e1-2b43d04917bb | METHOD: POST | URL: /api/documents/ | 
+2022-02-22 07:17:03,063 - USER_ID: 3e4b267e-2281-41b4-91e1-2b43d04917bb | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-22 07:17:03,100 - USER_ID: 3e4b267e-2281-41b4-91e1-2b43d04917bb | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 07:17:03,118 - USER_ID: 3e4b267e-2281-41b4-91e1-2b43d04917bb | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-22 07:17:03,137 - USER_ID: 3e4b267e-2281-41b4-91e1-2b43d04917bb | METHOD: GET | URL: /api/documents/51459db6-9a43-4406-90bd-9b691cb4522e | ARGS: {'body': ['0']}
+2022-02-22 07:17:03,157 - USER_ID: 2f8171ea-f278-4ad8-8afa-5c1be87caedb | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 0, 'user_id': '3e4b267e-2281-41b4-91e1-2b43d04917bb'}
+2022-02-22 07:17:03,176 - USER_ID: 3e4b267e-2281-41b4-91e1-2b43d04917bb | METHOD: POST | URL: /api/documents/51459db6-9a43-4406-90bd-9b691cb4522e/convert | ARGS: {}
+2022-02-22 07:17:28,459 - USER_ID: 3e4b267e-2281-41b4-91e1-2b43d04917bb | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 07:17:28,633 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-22 07:17:28,796 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-22 07:17:29,053 - USER_ID: acd3ddeb-847a-4fda-b479-cd2edef164ad | METHOD: POST | URL: /api/documents/ | 
+2022-02-22 07:17:46,250 - USER_ID: acd3ddeb-847a-4fda-b479-cd2edef164ad | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 07:17:46,266 - USER_ID: acd3ddeb-847a-4fda-b479-cd2edef164ad | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-22 07:17:46,364 - USER_ID: acd3ddeb-847a-4fda-b479-cd2edef164ad | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-22 07:17:46,389 - USER_ID: acd3ddeb-847a-4fda-b479-cd2edef164ad | METHOD: GET | URL: /api/documents/3b3a2d8c-daa2-4951-b8fd-bd91cdd6bb9b | ARGS: {'body': ['0']}
+2022-02-22 07:17:46,404 - USER_ID: acd3ddeb-847a-4fda-b479-cd2edef164ad | METHOD: POST | URL: /api/documents/3b3a2d8c-daa2-4951-b8fd-bd91cdd6bb9b/split | ARGS: {'pages': [1, 3, 6, 10]}
+2022-02-22 07:17:53,263 - USER_ID: acd3ddeb-847a-4fda-b479-cd2edef164ad | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 07:17:53,279 - USER_ID: acd3ddeb-847a-4fda-b479-cd2edef164ad | METHOD: POST | URL: /api/documents/merge | ARGS: {'sources': [{'id': '3b3a2d8c-daa2-4951-b8fd-bd91cdd6bb9b'}, {'id': '80c74a4d-286b-4367-9dcc-9d922c41f98e'}]}
+2022-02-22 07:18:16,336 - USER_ID: acd3ddeb-847a-4fda-b479-cd2edef164ad | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 07:18:16,352 - USER_ID: acd3ddeb-847a-4fda-b479-cd2edef164ad | METHOD: GET | URL: /api/documents/3b3a2d8c-daa2-4951-b8fd-bd91cdd6bb9b/download | ARGS: {'body': ['0']}
+2022-02-22 07:18:16,405 - USER_ID: acd3ddeb-847a-4fda-b479-cd2edef164ad | METHOD: GET | URL: /api/documents/3b3a2d8c-daa2-4951-b8fd-bd91cdd6bb9b/download | ARGS: {'body': ['0']}
+2022-02-22 07:18:16,462 - USER_ID: acd3ddeb-847a-4fda-b479-cd2edef164ad | METHOD: GET | URL: /api/documents/f3a4ecb9-fead-4dfa-9a4e-13279e0d1359/download | ARGS: {'body': ['0']}
+2022-02-22 07:18:16,500 - USER_ID: acd3ddeb-847a-4fda-b479-cd2edef164ad | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 07:18:16,520 - USER_ID: 06bc1dfc-df58-4831-94b3-5ac979bfe4d0 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': 'acd3ddeb-847a-4fda-b479-cd2edef164ad'}
+2022-02-22 07:18:16,529 - USER_ID: acd3ddeb-847a-4fda-b479-cd2edef164ad | METHOD: GET | URL: /api/documents/f3a4ecb9-fead-4dfa-9a4e-13279e0d1359/download | ARGS: {'body': ['0']}
+2022-02-22 07:18:16,798 - USER_ID: acd3ddeb-847a-4fda-b479-cd2edef164ad | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 07:18:16,969 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-22 07:18:17,218 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-22 07:18:17,407 - USER_ID: f32edafa-1d8b-40a8-a97e-149fc0ea6a7e | METHOD: POST | URL: /api/documents/ | 
+2022-02-22 07:18:34,936 - USER_ID: f32edafa-1d8b-40a8-a97e-149fc0ea6a7e | METHOD: POST | URL: /api/documents/cdd86873-f642-4428-a23c-b3a560f6f5ba/split | ARGS: {'pages': [1, 2, 5]}
+2022-02-22 07:18:40,065 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-22 07:18:40,232 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-22 07:18:40,555 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-22 07:18:40,803 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-22 07:18:41,015 - USER_ID: anonymous | METHOD: POST | URL: /api/users/register | ARGS: {'login': 'ivan', 'email': 'ivanperovsky@gmail.com', 'password': '1234'}
+2022-02-22 07:18:41,272 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-02-22 07:18:41,554 - USER_ID: 06e0cc9f-1fde-4b3a-9987-07e3ad89da0a | METHOD: POST | URL: /api/users/register | ARGS: {'email': 'test@gmail.com', 'password': '12345'}
+2022-02-22 07:18:41,894 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test@gmail.com', 'password': '1234'}
+2022-02-22 07:18:42,158 - USER_ID: 450d76f5-fdbc-4037-80f3-173dfff88d32 | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test2@gmail.com', 'password': '1234'}
+2022-02-22 07:18:42,163 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan', 'password': '1234'}
+2022-02-22 07:18:42,665 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-22 07:18:42,924 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-22 07:18:43,299 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-02-22 07:18:43,549 - USER_ID: f95dd5de-0254-44ae-801c-f34312a916b2 | METHOD: POST | URL: /api/users/login_phone | ARGS: {'phone': '79312972206'}
+2022-02-22 07:21:37,443 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-22 07:21:37,637 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-22 07:21:38,039 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-22 07:21:38,203 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-22 07:21:38,378 - USER_ID: c9af1b66-e725-4955-9eec-83c7baf80404 | METHOD: POST | URL: /api/documents/ | 
+2022-02-22 07:21:40,020 - USER_ID: c9af1b66-e725-4955-9eec-83c7baf80404 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-22 07:21:40,052 - USER_ID: c9af1b66-e725-4955-9eec-83c7baf80404 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 07:21:40,076 - USER_ID: c9af1b66-e725-4955-9eec-83c7baf80404 | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-22 07:21:40,096 - USER_ID: c9af1b66-e725-4955-9eec-83c7baf80404 | METHOD: GET | URL: /api/documents/3e470500-b98a-4674-bd34-3055261e2faf | ARGS: {'body': ['0']}
+2022-02-22 07:21:40,118 - USER_ID: ae821a8f-6a47-493d-946e-eac48a4e83d1 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 0, 'user_id': 'c9af1b66-e725-4955-9eec-83c7baf80404'}
+2022-02-22 07:21:40,139 - USER_ID: c9af1b66-e725-4955-9eec-83c7baf80404 | METHOD: POST | URL: /api/documents/3e470500-b98a-4674-bd34-3055261e2faf/convert | ARGS: {}
+2022-02-22 07:22:04,654 - USER_ID: c9af1b66-e725-4955-9eec-83c7baf80404 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 07:22:04,665 - USER_ID: c9af1b66-e725-4955-9eec-83c7baf80404 | METHOD: GET | URL: /api/documents/3e470500-b98a-4674-bd34-3055261e2faf/previews | ARGS: {}
+2022-02-22 07:22:04,678 - USER_ID: c9af1b66-e725-4955-9eec-83c7baf80404 | METHOD: GET | URL: /api/documents/493041a7-701d-44bb-99ed-fac4de057d5b/previews | ARGS: {}
+2022-02-22 07:22:04,713 - USER_ID: c9af1b66-e725-4955-9eec-83c7baf80404 | METHOD: GET | URL: /api/documents/493041a7-701d-44bb-99ed-fac4de057d5b | ARGS: {'body': ['0']}
+2022-02-22 07:22:04,723 - USER_ID: c9af1b66-e725-4955-9eec-83c7baf80404 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-22 07:22:04,732 - USER_ID: c9af1b66-e725-4955-9eec-83c7baf80404 | METHOD: GET | URL: /api/documents/ | ARGS: {'document_type': ['1']}
+2022-02-22 07:22:04,742 - USER_ID: ae821a8f-6a47-493d-946e-eac48a4e83d1 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': 'c9af1b66-e725-4955-9eec-83c7baf80404'}
+2022-02-22 07:22:04,757 - USER_ID: c9af1b66-e725-4955-9eec-83c7baf80404 | METHOD: POST | URL: /api/documents/ | 
+2022-02-22 07:22:06,141 - USER_ID: c9af1b66-e725-4955-9eec-83c7baf80404 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 07:22:06,151 - USER_ID: c9af1b66-e725-4955-9eec-83c7baf80404 | METHOD: POST | URL: /api/documents/3e470500-b98a-4674-bd34-3055261e2faf/convert | ARGS: {}
+2022-02-22 07:22:30,445 - USER_ID: c9af1b66-e725-4955-9eec-83c7baf80404 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 07:22:30,607 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-22 07:22:30,772 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-22 07:22:30,955 - USER_ID: d80b9e3b-7d0f-47ba-a01f-03ff8c5e715b | METHOD: POST | URL: /api/documents/ | 
+2022-02-22 07:22:48,588 - USER_ID: d80b9e3b-7d0f-47ba-a01f-03ff8c5e715b | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 07:22:48,604 - USER_ID: d80b9e3b-7d0f-47ba-a01f-03ff8c5e715b | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-22 07:22:48,702 - USER_ID: d80b9e3b-7d0f-47ba-a01f-03ff8c5e715b | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-22 07:22:48,729 - USER_ID: d80b9e3b-7d0f-47ba-a01f-03ff8c5e715b | METHOD: GET | URL: /api/documents/450419ef-4344-4945-b531-760e3fe0f6f8 | ARGS: {'body': ['0']}
+2022-02-22 07:22:48,750 - USER_ID: d80b9e3b-7d0f-47ba-a01f-03ff8c5e715b | METHOD: POST | URL: /api/documents/450419ef-4344-4945-b531-760e3fe0f6f8/split | ARGS: {'pages': [1, 3, 6, 10]}
+2022-02-22 07:22:56,715 - USER_ID: d80b9e3b-7d0f-47ba-a01f-03ff8c5e715b | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 07:22:56,749 - USER_ID: d80b9e3b-7d0f-47ba-a01f-03ff8c5e715b | METHOD: POST | URL: /api/documents/merge | ARGS: {'sources': [{'id': '450419ef-4344-4945-b531-760e3fe0f6f8'}, {'id': 'e1656339-76be-4dc2-9d59-dc65740e430a'}]}
+2022-02-22 07:23:22,645 - USER_ID: d80b9e3b-7d0f-47ba-a01f-03ff8c5e715b | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 07:23:22,661 - USER_ID: d80b9e3b-7d0f-47ba-a01f-03ff8c5e715b | METHOD: GET | URL: /api/documents/450419ef-4344-4945-b531-760e3fe0f6f8/download | ARGS: {'body': ['0']}
+2022-02-22 07:23:22,720 - USER_ID: d80b9e3b-7d0f-47ba-a01f-03ff8c5e715b | METHOD: GET | URL: /api/documents/450419ef-4344-4945-b531-760e3fe0f6f8/download | ARGS: {'body': ['0']}
+2022-02-22 07:23:22,775 - USER_ID: d80b9e3b-7d0f-47ba-a01f-03ff8c5e715b | METHOD: GET | URL: /api/documents/bb5c0d56-ce96-4840-96e1-1193de716927/download | ARGS: {'body': ['0']}
+2022-02-22 07:23:22,811 - USER_ID: d80b9e3b-7d0f-47ba-a01f-03ff8c5e715b | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 07:23:22,832 - USER_ID: 16c03340-83a4-4992-9b23-ccc53d23df2a | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': 'd80b9e3b-7d0f-47ba-a01f-03ff8c5e715b'}
+2022-02-22 07:23:22,841 - USER_ID: d80b9e3b-7d0f-47ba-a01f-03ff8c5e715b | METHOD: GET | URL: /api/documents/bb5c0d56-ce96-4840-96e1-1193de716927/download | ARGS: {'body': ['0']}
+2022-02-22 07:23:23,102 - USER_ID: d80b9e3b-7d0f-47ba-a01f-03ff8c5e715b | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-22 07:23:23,296 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-22 07:23:23,516 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-22 07:23:23,699 - USER_ID: e18f8812-2875-4d97-ab34-ae495604b893 | METHOD: POST | URL: /api/documents/ | 
+2022-02-22 07:23:41,426 - USER_ID: e18f8812-2875-4d97-ab34-ae495604b893 | METHOD: POST | URL: /api/documents/c6d12d53-3785-48d0-8381-74c1eb57da12/split | ARGS: {'pages': [1, 2, 5]}
+2022-02-22 07:23:46,535 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-22 07:23:46,703 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-22 07:23:47,100 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-22 07:23:47,268 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-22 07:23:47,432 - USER_ID: anonymous | METHOD: POST | URL: /api/users/register | ARGS: {'login': 'ivan', 'email': 'ivanperovsky@gmail.com', 'password': '1234'}
+2022-02-22 07:23:47,595 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-02-22 07:23:47,757 - USER_ID: 8aafa429-2dce-4e9d-a065-e6c8609ee840 | METHOD: POST | URL: /api/users/register | ARGS: {'email': 'test@gmail.com', 'password': '12345'}
+2022-02-22 07:23:47,949 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test@gmail.com', 'password': '1234'}
+2022-02-22 07:23:48,149 - USER_ID: b544db59-794d-4a10-9caa-a3db473b5316 | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test2@gmail.com', 'password': '1234'}
+2022-02-22 07:23:48,154 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan', 'password': '1234'}
+2022-02-22 07:23:48,471 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-22 07:23:48,635 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-22 07:23:48,801 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-02-22 07:23:49,038 - USER_ID: a04b1054-3cbe-4b22-8ec4-b86c27ca2eb2 | METHOD: POST | URL: /api/users/login_phone | ARGS: {'phone': '79312972206'}
+2022-02-25 10:37:12,729 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-25 10:37:13,325 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-25 10:37:14,394 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-25 10:37:14,954 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-25 10:37:15,615 - USER_ID: 668d9ce5-fad5-4b59-aa6f-1784c1434267 | METHOD: POST | URL: /api/documents/ | 
+2022-02-25 10:37:38,342 - USER_ID: 668d9ce5-fad5-4b59-aa6f-1784c1434267 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-25 10:37:38,374 - USER_ID: 668d9ce5-fad5-4b59-aa6f-1784c1434267 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-25 10:37:38,384 - USER_ID: 668d9ce5-fad5-4b59-aa6f-1784c1434267 | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-25 10:37:38,394 - USER_ID: 668d9ce5-fad5-4b59-aa6f-1784c1434267 | METHOD: GET | URL: /api/documents/848c70a5-f7d4-486b-bc01-c3d0df89cbc9 | ARGS: {'body': ['0']}
+2022-02-25 10:37:38,406 - USER_ID: 4290c45a-9a4b-437c-90b9-60fb8e468be3 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 0, 'user_id': '668d9ce5-fad5-4b59-aa6f-1784c1434267'}
+2022-02-25 10:37:38,425 - USER_ID: 668d9ce5-fad5-4b59-aa6f-1784c1434267 | METHOD: POST | URL: /api/documents/848c70a5-f7d4-486b-bc01-c3d0df89cbc9/convert | ARGS: {}
+2022-02-25 10:40:50,319 - USER_ID: 668d9ce5-fad5-4b59-aa6f-1784c1434267 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-25 10:40:50,352 - USER_ID: 668d9ce5-fad5-4b59-aa6f-1784c1434267 | METHOD: GET | URL: /api/documents/848c70a5-f7d4-486b-bc01-c3d0df89cbc9/previews | ARGS: {}
+2022-02-25 10:40:50,384 - USER_ID: 668d9ce5-fad5-4b59-aa6f-1784c1434267 | METHOD: GET | URL: /api/documents/51f13d44-abef-44b5-b979-2a520c0188e5/previews | ARGS: {}
+2022-02-25 10:40:50,455 - USER_ID: 668d9ce5-fad5-4b59-aa6f-1784c1434267 | METHOD: GET | URL: /api/documents/51f13d44-abef-44b5-b979-2a520c0188e5 | ARGS: {'body': ['0']}
+2022-02-25 10:40:50,491 - USER_ID: 668d9ce5-fad5-4b59-aa6f-1784c1434267 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-25 10:40:50,513 - USER_ID: 668d9ce5-fad5-4b59-aa6f-1784c1434267 | METHOD: GET | URL: /api/documents/ | ARGS: {'document_type': ['1']}
+2022-02-25 10:40:50,526 - USER_ID: 4290c45a-9a4b-437c-90b9-60fb8e468be3 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': '668d9ce5-fad5-4b59-aa6f-1784c1434267'}
+2022-02-25 10:40:50,556 - USER_ID: 668d9ce5-fad5-4b59-aa6f-1784c1434267 | METHOD: POST | URL: /api/documents/ | 
+2022-02-25 10:41:02,517 - USER_ID: 668d9ce5-fad5-4b59-aa6f-1784c1434267 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-25 10:41:02,535 - USER_ID: 668d9ce5-fad5-4b59-aa6f-1784c1434267 | METHOD: POST | URL: /api/documents/848c70a5-f7d4-486b-bc01-c3d0df89cbc9/convert | ARGS: {}
+2022-02-25 10:44:06,873 - USER_ID: 668d9ce5-fad5-4b59-aa6f-1784c1434267 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-25 10:44:07,061 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-25 10:44:07,298 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-25 10:44:07,520 - USER_ID: 61d82890-4091-47d7-a59f-c2720ad817a8 | METHOD: POST | URL: /api/documents/ | 
+2022-02-25 10:46:04,146 - USER_ID: 61d82890-4091-47d7-a59f-c2720ad817a8 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-25 10:46:04,162 - USER_ID: 61d82890-4091-47d7-a59f-c2720ad817a8 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-02-25 10:46:04,351 - USER_ID: 61d82890-4091-47d7-a59f-c2720ad817a8 | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-02-25 10:46:04,392 - USER_ID: 61d82890-4091-47d7-a59f-c2720ad817a8 | METHOD: GET | URL: /api/documents/8cee52aa-f914-40d3-b7c7-31cb9a93988e | ARGS: {'body': ['0']}
+2022-02-25 10:46:04,408 - USER_ID: 61d82890-4091-47d7-a59f-c2720ad817a8 | METHOD: POST | URL: /api/documents/8cee52aa-f914-40d3-b7c7-31cb9a93988e/split | ARGS: {'pages': [1, 3, 6, 10]}
+2022-02-25 10:46:51,508 - USER_ID: 61d82890-4091-47d7-a59f-c2720ad817a8 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-25 10:46:51,527 - USER_ID: 61d82890-4091-47d7-a59f-c2720ad817a8 | METHOD: POST | URL: /api/documents/merge | ARGS: {'sources': [{'id': '8cee52aa-f914-40d3-b7c7-31cb9a93988e'}, {'id': '0d0e8702-25d7-4e3a-bf73-55b4b97a39b2'}]}
+2022-02-25 10:49:34,493 - USER_ID: 61d82890-4091-47d7-a59f-c2720ad817a8 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-25 10:49:34,509 - USER_ID: 61d82890-4091-47d7-a59f-c2720ad817a8 | METHOD: GET | URL: /api/documents/8cee52aa-f914-40d3-b7c7-31cb9a93988e/download | ARGS: {'body': ['0']}
+2022-02-25 10:49:34,563 - USER_ID: 61d82890-4091-47d7-a59f-c2720ad817a8 | METHOD: GET | URL: /api/documents/8cee52aa-f914-40d3-b7c7-31cb9a93988e/download | ARGS: {'body': ['0']}
+2022-02-25 10:49:34,619 - USER_ID: 61d82890-4091-47d7-a59f-c2720ad817a8 | METHOD: GET | URL: /api/documents/d1d12297-e1da-4799-a873-43fa758a5fd1/download | ARGS: {'body': ['0']}
+2022-02-25 10:49:34,652 - USER_ID: 61d82890-4091-47d7-a59f-c2720ad817a8 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-25 10:49:34,672 - USER_ID: c162d8cc-f36e-46ab-bb09-35ecccaf0a68 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': '61d82890-4091-47d7-a59f-c2720ad817a8'}
+2022-02-25 10:49:34,681 - USER_ID: 61d82890-4091-47d7-a59f-c2720ad817a8 | METHOD: GET | URL: /api/documents/d1d12297-e1da-4799-a873-43fa758a5fd1/download | ARGS: {'body': ['0']}
+2022-02-25 10:49:35,023 - USER_ID: 61d82890-4091-47d7-a59f-c2720ad817a8 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-02-25 10:49:35,188 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-25 10:49:35,351 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-25 10:49:35,535 - USER_ID: 4abd2751-2c94-418c-9649-818b2796bf86 | METHOD: POST | URL: /api/documents/ | 
+2022-02-25 10:51:46,587 - USER_ID: 4abd2751-2c94-418c-9649-818b2796bf86 | METHOD: POST | URL: /api/documents/814da7c2-8b15-4f4b-95a7-a4b612134bfc/split | ARGS: {'pages': [1, 2, 5]}
+2022-02-25 10:53:04,945 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-25 10:53:05,153 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-25 10:53:05,346 - USER_ID: 45c0c7bd-2a3e-42f7-a346-586894fb6121 | METHOD: POST | URL: /api/documents/ | 
+2022-02-25 10:55:05,531 - USER_ID: 45c0c7bd-2a3e-42f7-a346-586894fb6121 | METHOD: POST | URL: /api/documents/f30bccd0-0442-47bb-a8a1-432e86233723/split | ARGS: {'pages': [1, 2, 5]}
+2022-02-25 10:55:42,735 - USER_ID: 45c0c7bd-2a3e-42f7-a346-586894fb6121 | METHOD: POST | URL: /api/documents/b20449f5-3a4b-4aae-ac2c-3fa52e453550/split | ARGS: {'pages': [1, 5]}
+2022-02-27 09:56:08,520 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-27 09:56:09,263 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-02-27 09:58:30,926 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-02-27 09:58:31,107 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 20:34:24,431 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 20:34:24,885 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 20:35:16,042 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 20:35:16,303 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 20:35:17,064 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 20:35:17,242 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:29:41,286 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:29:41,554 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:29:41,728 - USER_ID: anonymous | METHOD: POST | URL: /api/users/register | ARGS: {'login': 'ivan', 'email': 'ivanperovsky@gmail.com', 'password': '1234'}
+2022-03-01 21:29:42,765 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:29:42,937 - USER_ID: 55d5a4e2-2f42-4bf9-bf7a-ffa37b1afd24 | METHOD: POST | URL: /api/users/register | ARGS: {'email': 'ivan@marga.app', 'password': '12345'}
+2022-03-01 21:29:43,326 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test@gmail.com', 'password': '1234'}
+2022-03-01 21:29:43,332 - USER_ID: e3959ec9-b733-472d-b8c4-e19ea7b5144e | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test2@gmail.com', 'password': '1234'}
+2022-03-01 21:29:43,339 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan', 'password': '1234'}
+2022-03-01 21:29:43,497 - USER_ID: anonymous | METHOD: POST | URL: /api/users/send-password | ARGS: {'email': 'ivan@marga.app'}
+2022-03-01 21:29:43,918 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:29:44,102 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:29:44,282 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:29:44,647 - USER_ID: a7443fd0-ff54-4997-8587-28832026f3f3 | METHOD: POST | URL: /api/users/login_phone | ARGS: {'phone': '79312972206'}
+2022-03-01 21:31:57,066 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:31:57,411 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:31:57,682 - USER_ID: anonymous | METHOD: POST | URL: /api/users/register | ARGS: {'login': 'ivan', 'email': 'ivanperovsky@gmail.com', 'password': '1234'}
+2022-03-01 21:31:58,463 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:31:58,636 - USER_ID: 30a124c9-c7ff-4b21-b486-7339f16224d1 | METHOD: POST | URL: /api/users/register | ARGS: {'email': 'ivan@marga.app', 'password': '12345'}
+2022-03-01 21:31:59,557 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test@gmail.com', 'password': '1234'}
+2022-03-01 21:31:59,567 - USER_ID: d448e3f6-209b-48d0-ad1d-0bf88dfa2b59 | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test2@gmail.com', 'password': '1234'}
+2022-03-01 21:31:59,573 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan', 'password': '1234'}
+2022-03-01 21:31:59,755 - USER_ID: anonymous | METHOD: POST | URL: /api/users/send-password | ARGS: {'email': 'ivan@marga.app'}
+2022-03-01 21:32:00,204 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:32:00,406 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:32:00,606 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:32:00,857 - USER_ID: 1ac471aa-8a0f-4d8e-81e0-303795da7505 | METHOD: POST | URL: /api/users/login_phone | ARGS: {'phone': '79312972206'}
+2022-03-01 21:36:04,639 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:36:04,963 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:36:05,129 - USER_ID: anonymous | METHOD: POST | URL: /api/users/register | ARGS: {'login': 'ivan', 'email': 'ivanperovsky@gmail.com', 'password': '1234'}
+2022-03-01 21:36:05,646 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:36:05,815 - USER_ID: 44429539-65c5-423e-b4fe-e36ff07ea23f | METHOD: POST | URL: /api/users/register | ARGS: {'email': 'ivan@marga.app', 'password': '12345'}
+2022-03-01 21:36:06,311 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test@gmail.com', 'password': '1234'}
+2022-03-01 21:36:06,319 - USER_ID: 9ef286d6-9daa-4dd7-8400-0e7385601953 | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test2@gmail.com', 'password': '1234'}
+2022-03-01 21:36:06,324 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan', 'password': '1234'}
+2022-03-01 21:36:06,491 - USER_ID: anonymous | METHOD: POST | URL: /api/users/send-password | ARGS: {'email': 'ivan@marga.app'}
+2022-03-01 21:36:06,661 - USER_ID: anonymous | METHOD: POST | URL: /api/users/restore-password | ARGS: {'email': 'ivan@marga.app', 'code': 'WZ4iY8LvRmaZ', 'user_id': '44429539-65c5-423e-b4fe-e36ff07ea23f'}
+2022-03-01 21:36:06,970 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:36:07,133 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:36:07,301 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:36:07,465 - USER_ID: ad52597d-c7cf-4855-a474-c1435a096a3b | METHOD: POST | URL: /api/users/login_phone | ARGS: {'phone': '79312972206'}
+2022-03-01 21:37:31,924 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:37:32,255 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:37:32,511 - USER_ID: anonymous | METHOD: POST | URL: /api/users/register | ARGS: {'login': 'ivan', 'email': 'ivanperovsky@gmail.com', 'password': '1234'}
+2022-03-01 21:37:33,049 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:37:33,276 - USER_ID: b842c51b-9850-499b-be24-b346fc28def5 | METHOD: POST | URL: /api/users/register | ARGS: {'email': 'ivan@marga.app', 'password': '12345'}
+2022-03-01 21:37:33,645 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test@gmail.com', 'password': '1234'}
+2022-03-01 21:37:33,652 - USER_ID: bf8483d2-cd8e-47dc-b9d9-02d097169b0a | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test2@gmail.com', 'password': '1234'}
+2022-03-01 21:37:33,657 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan', 'password': '1234'}
+2022-03-01 21:37:33,821 - USER_ID: anonymous | METHOD: POST | URL: /api/users/send-password | ARGS: {'email': 'ivan@marga.app'}
+2022-03-01 21:37:34,256 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:37:34,433 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:37:34,609 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:37:34,777 - USER_ID: abe462f7-cb23-479f-8344-269eca4bc404 | METHOD: POST | URL: /api/users/login_phone | ARGS: {'phone': '79312972206'}
+2022-03-01 21:38:16,471 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:38:16,757 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:38:16,927 - USER_ID: anonymous | METHOD: POST | URL: /api/users/register | ARGS: {'login': 'ivan', 'email': 'ivanperovsky@gmail.com', 'password': '1234'}
+2022-03-01 21:38:17,363 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:38:17,525 - USER_ID: 4b5f244e-20f2-48ad-bb0c-5220e14852fa | METHOD: POST | URL: /api/users/register | ARGS: {'email': 'ivan@marga.app', 'password': '12345'}
+2022-03-01 21:38:18,164 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test@gmail.com', 'password': '1234'}
+2022-03-01 21:38:18,173 - USER_ID: 162fb5fc-f3e6-4578-aac5-542ce77bc5fd | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test2@gmail.com', 'password': '1234'}
+2022-03-01 21:38:18,177 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan', 'password': '1234'}
+2022-03-01 21:38:18,334 - USER_ID: anonymous | METHOD: POST | URL: /api/users/send-password | ARGS: {'email': 'ivan@marga.app'}
+2022-03-01 21:38:18,575 - USER_ID: anonymous | METHOD: POST | URL: /api/users/restore-password | ARGS: {'email': 'ivan@marga.app', 'code': 'inlHYAnAePNJ', 'user_id': '4b5f244e-20f2-48ad-bb0c-5220e14852fa'}
+2022-03-01 21:38:18,744 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:38:18,912 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:38:19,086 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:38:19,248 - USER_ID: 74fbf6da-0ff9-454a-9a64-c8b7cde4adf5 | METHOD: POST | URL: /api/users/login_phone | ARGS: {'phone': '79312972206'}
+2022-03-01 21:39:02,138 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:39:02,322 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:39:02,565 - USER_ID: anonymous | METHOD: POST | URL: /api/users/register | ARGS: {'login': 'ivan', 'email': 'ivanperovsky@gmail.com', 'password': '1234'}
+2022-03-01 21:39:03,051 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:39:03,224 - USER_ID: 22fb152d-ecfe-4e8d-b149-f084f38067f8 | METHOD: POST | URL: /api/users/register | ARGS: {'email': 'ivan@marga.app', 'password': '12345'}
+2022-03-01 21:39:03,804 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test@gmail.com', 'password': '1234'}
+2022-03-01 21:39:03,812 - USER_ID: 152bb25e-d76a-4826-81fd-1a50e313e60b | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test2@gmail.com', 'password': '1234'}
+2022-03-01 21:39:03,816 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan', 'password': '1234'}
+2022-03-01 21:39:03,976 - USER_ID: anonymous | METHOD: POST | URL: /api/users/send-password | ARGS: {'email': 'ivan@marga.app'}
+2022-03-01 21:39:04,408 - USER_ID: anonymous | METHOD: POST | URL: /api/users/restore-password | ARGS: {'new_password': 'BlaBla', 'code': 'Uw4gm1jOn85w', 'user_id': '22fb152d-ecfe-4e8d-b149-f084f38067f8'}
+2022-03-01 21:39:04,699 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:39:04,869 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:39:05,132 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:39:05,367 - USER_ID: e995319b-8030-4461-9d5a-d193afaa4730 | METHOD: POST | URL: /api/users/login_phone | ARGS: {'phone': '79312972206'}
+2022-03-01 21:43:52,160 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:43:52,340 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:43:52,519 - USER_ID: anonymous | METHOD: POST | URL: /api/users/register | ARGS: {'login': 'ivan', 'email': 'ivanperovsky@gmail.com', 'password': '1234'}
+2022-03-01 21:43:52,986 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:43:53,148 - USER_ID: 94e8f1cc-dca0-4d29-b678-1491bd358f60 | METHOD: POST | URL: /api/users/register | ARGS: {'email': 'ivan@marga.app', 'password': '12345'}
+2022-03-01 21:43:53,575 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test@gmail.com', 'password': '1234'}
+2022-03-01 21:43:53,583 - USER_ID: 495f048a-c6c8-4b2a-92e3-2bcafe7c1143 | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test2@gmail.com', 'password': '1234'}
+2022-03-01 21:43:53,589 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan', 'password': '1234'}
+2022-03-01 21:43:53,743 - USER_ID: anonymous | METHOD: POST | URL: /api/users/send-password | ARGS: {'email': 'ivan@marga.app'}
+2022-03-01 21:43:54,264 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:43:54,439 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:43:54,605 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:43:54,784 - USER_ID: f331239e-afde-4714-96b3-bc9cb79506c0 | METHOD: POST | URL: /api/users/login_phone | ARGS: {'phone': '79312972206'}
+2022-03-01 21:45:02,444 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:45:02,622 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:45:02,786 - USER_ID: anonymous | METHOD: POST | URL: /api/users/register | ARGS: {'login': 'ivan', 'email': 'ivanperovsky@gmail.com', 'password': '1234'}
+2022-03-01 21:45:03,209 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:45:03,390 - USER_ID: e7301bfd-11af-4f3e-8747-82cdc0e9f910 | METHOD: POST | URL: /api/users/register | ARGS: {'email': 'ivan@marga.app', 'password': '12345'}
+2022-03-01 21:45:03,727 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test@gmail.com', 'password': '1234'}
+2022-03-01 21:45:03,735 - USER_ID: 5a304f11-efb0-4c88-bd23-e606f1d509c9 | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test2@gmail.com', 'password': '1234'}
+2022-03-01 21:45:03,739 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan', 'password': '1234'}
+2022-03-01 21:45:03,894 - USER_ID: anonymous | METHOD: POST | URL: /api/users/send-password | ARGS: {'email': 'ivan@marga.app'}
+2022-03-01 21:45:04,360 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:45:04,526 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:45:04,694 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:45:04,858 - USER_ID: 19961c6c-9703-431d-82ca-698a8820653b | METHOD: POST | URL: /api/users/login_phone | ARGS: {'phone': '79312972206'}
+2022-03-01 21:47:18,686 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:47:18,863 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:47:19,026 - USER_ID: anonymous | METHOD: POST | URL: /api/users/register | ARGS: {'login': 'ivan', 'email': 'ivanperovsky@gmail.com', 'password': '1234'}
+2022-03-01 21:47:19,470 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:47:19,633 - USER_ID: d069ff44-7e9c-443d-aaeb-a06222e509d7 | METHOD: POST | URL: /api/users/register | ARGS: {'email': 'ivan@marga.app', 'password': '12345'}
+2022-03-01 21:47:20,008 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test@gmail.com', 'password': '1234'}
+2022-03-01 21:47:20,015 - USER_ID: c695cf4c-d595-4f15-9f79-c45143e3ade6 | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test2@gmail.com', 'password': '1234'}
+2022-03-01 21:47:20,019 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan', 'password': '1234'}
+2022-03-01 21:47:20,173 - USER_ID: anonymous | METHOD: POST | URL: /api/users/send-password | ARGS: {'email': 'ivan@marga.app'}
+2022-03-01 21:47:20,357 - USER_ID: anonymous | METHOD: POST | URL: /api/users/restore-password | ARGS: {'new_password': 'BlaBla', 'code': 'kLgLq7SsM1xi', 'user_id': 'd069ff44-7e9c-443d-aaeb-a06222e509d7'}
+2022-03-01 21:47:20,674 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:47:20,840 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:47:21,010 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:47:21,173 - USER_ID: 005936c5-d370-4d74-b7ef-4f6adab64514 | METHOD: POST | URL: /api/users/login_phone | ARGS: {'phone': '79312972206'}
+2022-03-01 21:49:20,406 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:49:20,602 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:49:20,791 - USER_ID: anonymous | METHOD: POST | URL: /api/users/register | ARGS: {'login': 'ivan', 'email': 'ivanperovsky@gmail.com', 'password': '1234'}
+2022-03-01 21:49:21,268 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:49:21,432 - USER_ID: cb6e304d-6dc7-4eb5-8dc9-2dcb22cc2266 | METHOD: POST | URL: /api/users/register | ARGS: {'email': 'ivan@marga.app', 'password': '12345'}
+2022-03-01 21:49:21,837 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test@gmail.com', 'password': '1234'}
+2022-03-01 21:49:21,845 - USER_ID: 91612809-db2a-402d-bc28-338206f75c32 | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test2@gmail.com', 'password': '1234'}
+2022-03-01 21:49:21,849 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan', 'password': '1234'}
+2022-03-01 21:49:22,004 - USER_ID: anonymous | METHOD: POST | URL: /api/users/send-password | ARGS: {'email': 'ivan@marga.app'}
+2022-03-01 21:49:22,279 - USER_ID: anonymous | METHOD: POST | URL: /api/users/restore-password | ARGS: {'new_password': 'BlaBla', 'code': '1Dc0KxnUgez1', 'user_id': 'cb6e304d-6dc7-4eb5-8dc9-2dcb22cc2266'}
+2022-03-01 21:49:22,440 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan@marga.app', 'password': '12345'}
+2022-03-01 21:49:22,599 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan@marga.app', 'password': 'BlaBla'}
+2022-03-01 21:49:22,909 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:49:23,072 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:49:23,239 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:49:23,401 - USER_ID: 8939a084-4f39-4d02-9c5b-5b1eb142e94d | METHOD: POST | URL: /api/users/login_phone | ARGS: {'phone': '79312972206'}
+2022-03-01 21:50:50,288 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:50:50,465 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:50:50,628 - USER_ID: anonymous | METHOD: POST | URL: /api/users/register | ARGS: {'login': 'ivan', 'email': 'ivanperovsky@gmail.com', 'password': '1234'}
+2022-03-01 21:50:51,108 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:50:51,297 - USER_ID: 11e32a8f-ec40-4261-a614-532a9b353191 | METHOD: POST | URL: /api/users/register | ARGS: {'email': 'ivan@marga.app', 'password': '12345'}
+2022-03-01 21:50:51,665 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test@gmail.com', 'password': '1234'}
+2022-03-01 21:50:51,672 - USER_ID: 561a2ad1-2a75-4061-b53e-8fa5b3b0a105 | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test2@gmail.com', 'password': '1234'}
+2022-03-01 21:50:51,676 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan', 'password': '1234'}
+2022-03-01 21:50:51,834 - USER_ID: anonymous | METHOD: POST | URL: /api/users/send-password | ARGS: {'email': 'ivan@marga.app'}
+2022-03-01 21:50:52,503 - USER_ID: anonymous | METHOD: POST | URL: /api/users/restore-password | ARGS: {'new_password': 'BlaBla', 'code': '6HBVT7y9Vllm', 'user_id': '11e32a8f-ec40-4261-a614-532a9b353191'}
+2022-03-01 21:50:52,666 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan@marga.app', 'password': '12345'}
+2022-03-01 21:50:52,819 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan@marga.app', 'password': 'BlaBla'}
+2022-03-01 21:50:53,136 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:50:53,301 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:50:53,472 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:50:53,657 - USER_ID: 739775ba-79c9-4030-a857-0052c46ff83b | METHOD: POST | URL: /api/users/login_phone | ARGS: {'phone': '79312972206'}
+2022-03-01 21:51:43,946 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:51:44,124 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:51:44,291 - USER_ID: anonymous | METHOD: POST | URL: /api/users/register | ARGS: {'login': 'ivan', 'email': 'ivanperovsky@gmail.com', 'password': '1234'}
+2022-03-01 21:51:44,734 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:51:44,916 - USER_ID: 8bc3e831-9391-4325-ac13-f5d61e4fe3ff | METHOD: POST | URL: /api/users/register | ARGS: {'email': 'ivan@marga.app', 'password': '12345'}
+2022-03-01 21:51:45,241 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test@gmail.com', 'password': '1234'}
+2022-03-01 21:51:45,254 - USER_ID: 730d8f29-cb1e-4642-bdcc-0fbaffb26687 | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test2@gmail.com', 'password': '1234'}
+2022-03-01 21:51:45,260 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan', 'password': '1234'}
+2022-03-01 21:51:45,419 - USER_ID: anonymous | METHOD: POST | URL: /api/users/send-password | ARGS: {'email': 'ivan@marga.app'}
+2022-03-01 21:51:45,639 - USER_ID: anonymous | METHOD: POST | URL: /api/users/restore-password | ARGS: {'new_password': 'BlaBla', 'code': 'azrfow09aiy8', 'user_id': '8bc3e831-9391-4325-ac13-f5d61e4fe3ff'}
+2022-03-01 21:51:45,801 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan@marga.app', 'password': '12345'}
+2022-03-01 21:51:45,959 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan@marga.app', 'password': 'BlaBla'}
+2022-03-01 21:51:46,274 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:51:46,436 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:51:46,601 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:51:46,765 - USER_ID: 486931c6-96a5-4923-aff0-a046e03e50f7 | METHOD: POST | URL: /api/users/login_phone | ARGS: {'phone': '79312972206'}
+2022-03-01 21:52:32,976 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:52:33,152 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:52:33,315 - USER_ID: anonymous | METHOD: POST | URL: /api/users/register | ARGS: {'login': 'ivan', 'email': 'ivanperovsky@gmail.com', 'password': '1234'}
+2022-03-01 21:52:33,754 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:52:33,918 - USER_ID: 5a14f2b7-66d2-4161-9400-beb294200ed2 | METHOD: POST | URL: /api/users/register | ARGS: {'email': 'ivan@marga.app', 'password': '12345'}
+2022-03-01 21:52:34,241 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test@gmail.com', 'password': '1234'}
+2022-03-01 21:52:34,254 - USER_ID: 5bdbb92a-f7a4-449f-b0e7-84374d085ed3 | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test2@gmail.com', 'password': '1234'}
+2022-03-01 21:52:34,260 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan', 'password': '1234'}
+2022-03-01 21:52:34,420 - USER_ID: anonymous | METHOD: POST | URL: /api/users/send-password | ARGS: {'email': 'ivan@marga.app'}
+2022-03-01 21:52:34,626 - USER_ID: anonymous | METHOD: POST | URL: /api/users/restore-password | ARGS: {'new_password': 'BlaBla', 'code': 'OogmyViyoJZk', 'user_id': '5a14f2b7-66d2-4161-9400-beb294200ed2'}
+2022-03-01 21:52:34,789 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan@marga.app', 'password': '12345'}
+2022-03-01 21:52:34,946 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan@marga.app', 'password': 'BlaBla'}
+2022-03-01 21:52:35,261 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:52:35,484 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:52:35,656 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:52:35,820 - USER_ID: cd904d4e-0b7e-47c8-91d1-2b8cd1bbe269 | METHOD: POST | URL: /api/users/login_phone | ARGS: {'phone': '79312972206'}
+2022-03-01 21:53:55,413 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:53:55,589 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:53:55,797 - USER_ID: anonymous | METHOD: POST | URL: /api/users/register | ARGS: {'login': 'ivan', 'email': 'ivanperovsky@gmail.com', 'password': '1234'}
+2022-03-01 21:53:56,299 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:53:56,470 - USER_ID: bc60f6b6-5d68-4c05-b9aa-3d772166e8fa | METHOD: POST | URL: /api/users/register | ARGS: {'email': 'ivan@marga.app', 'password': '12345'}
+2022-03-01 21:53:56,909 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test@gmail.com', 'password': '1234'}
+2022-03-01 21:53:56,919 - USER_ID: daf16d98-6439-45e7-aaed-1fda9f773901 | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test2@gmail.com', 'password': '1234'}
+2022-03-01 21:53:56,929 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan', 'password': '1234'}
+2022-03-01 21:53:57,255 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:53:57,420 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:53:57,590 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:53:57,754 - USER_ID: f252e503-5d17-4084-8038-f5ccfd76375d | METHOD: POST | URL: /api/users/login_phone | ARGS: {'phone': '79312972206'}
+2022-03-01 21:55:25,468 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:55:25,653 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:55:25,865 - USER_ID: anonymous | METHOD: POST | URL: /api/users/register | ARGS: {'login': 'ivan', 'email': 'ivanperovsky@gmail.com', 'password': '1234'}
+2022-03-01 21:55:26,322 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:55:26,485 - USER_ID: 1ff16eb6-0253-4d42-a37c-8c214a8d56a8 | METHOD: POST | URL: /api/users/register | ARGS: {'email': 'ivan@marga.app', 'password': '12345'}
+2022-03-01 21:55:26,846 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test@gmail.com', 'password': '1234'}
+2022-03-01 21:55:26,858 - USER_ID: 23de5eac-3301-4d88-8d62-8788e70938c2 | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test2@gmail.com', 'password': '1234'}
+2022-03-01 21:55:26,866 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan', 'password': '1234'}
+2022-03-01 21:55:27,026 - USER_ID: anonymous | METHOD: POST | URL: /api/users/send-password | ARGS: {'email': 'ivan@marga.app'}
+2022-03-01 21:55:27,213 - USER_ID: anonymous | METHOD: POST | URL: /api/users/restore-password | ARGS: {'new_password': 'BlaBla', 'code': '2GRFAC4sRvR1', 'user_id': '1ff16eb6-0253-4d42-a37c-8c214a8d56a8'}
+2022-03-01 21:55:27,373 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan@marga.app', 'password': '12345'}
+2022-03-01 21:55:27,534 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan@marga.app', 'password': 'BlaBla'}
+2022-03-01 21:55:27,847 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-01 21:55:28,010 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-01 21:55:28,178 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-01 21:55:28,338 - USER_ID: f2c524e3-b8af-4711-8bce-8f33d92643c0 | METHOD: POST | URL: /api/users/login_phone | ARGS: {'phone': '79312972206'}
+2022-03-06 10:40:44,888 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 10:40:45,275 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 10:40:45,847 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 10:40:46,013 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 10:40:46,278 - USER_ID: b82c58c5-cd58-483e-8d1a-80578713f053 | METHOD: POST | URL: /api/documents/ | 
+2022-03-06 10:40:59,768 - USER_ID: b82c58c5-cd58-483e-8d1a-80578713f053 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-03-06 10:40:59,796 - USER_ID: b82c58c5-cd58-483e-8d1a-80578713f053 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:40:59,808 - USER_ID: b82c58c5-cd58-483e-8d1a-80578713f053 | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-03-06 10:40:59,819 - USER_ID: b82c58c5-cd58-483e-8d1a-80578713f053 | METHOD: GET | URL: /api/documents/427877b3-4d46-4f19-bcbc-4c0f6f952641 | ARGS: {'body': ['0']}
+2022-03-06 10:40:59,832 - USER_ID: 00bee109-d4a2-4584-b2e0-9de2fc3e2d2a | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 0, 'user_id': 'b82c58c5-cd58-483e-8d1a-80578713f053'}
+2022-03-06 10:40:59,842 - USER_ID: b82c58c5-cd58-483e-8d1a-80578713f053 | METHOD: POST | URL: /api/documents/427877b3-4d46-4f19-bcbc-4c0f6f952641/convert | ARGS: {}
+2022-03-06 10:41:47,107 - USER_ID: b82c58c5-cd58-483e-8d1a-80578713f053 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:41:47,119 - USER_ID: b82c58c5-cd58-483e-8d1a-80578713f053 | METHOD: GET | URL: /api/documents/427877b3-4d46-4f19-bcbc-4c0f6f952641/previews | ARGS: {}
+2022-03-06 10:41:47,133 - USER_ID: b82c58c5-cd58-483e-8d1a-80578713f053 | METHOD: GET | URL: /api/documents/481e655b-edaf-4bb6-a992-fba2a65e4b0b/previews | ARGS: {}
+2022-03-06 10:41:47,174 - USER_ID: b82c58c5-cd58-483e-8d1a-80578713f053 | METHOD: GET | URL: /api/documents/481e655b-edaf-4bb6-a992-fba2a65e4b0b | ARGS: {'body': ['0']}
+2022-03-06 10:41:47,184 - USER_ID: b82c58c5-cd58-483e-8d1a-80578713f053 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-03-06 10:41:47,207 - USER_ID: b82c58c5-cd58-483e-8d1a-80578713f053 | METHOD: GET | URL: /api/documents/ | ARGS: {'document_type': ['1']}
+2022-03-06 10:41:47,231 - USER_ID: 00bee109-d4a2-4584-b2e0-9de2fc3e2d2a | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': 'b82c58c5-cd58-483e-8d1a-80578713f053'}
+2022-03-06 10:41:47,259 - USER_ID: b82c58c5-cd58-483e-8d1a-80578713f053 | METHOD: POST | URL: /api/documents/ | 
+2022-03-06 10:41:49,505 - USER_ID: b82c58c5-cd58-483e-8d1a-80578713f053 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:41:49,530 - USER_ID: b82c58c5-cd58-483e-8d1a-80578713f053 | METHOD: POST | URL: /api/documents/427877b3-4d46-4f19-bcbc-4c0f6f952641/convert | ARGS: {}
+2022-03-06 10:42:38,373 - USER_ID: b82c58c5-cd58-483e-8d1a-80578713f053 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:42:39,059 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 10:42:40,144 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 10:42:40,883 - USER_ID: e58c31a3-3de6-430c-9611-875a3d7dcb49 | METHOD: POST | URL: /api/documents/ | 
+2022-03-06 10:43:07,963 - USER_ID: e58c31a3-3de6-430c-9611-875a3d7dcb49 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:43:07,983 - USER_ID: e58c31a3-3de6-430c-9611-875a3d7dcb49 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-03-06 10:43:08,127 - USER_ID: e58c31a3-3de6-430c-9611-875a3d7dcb49 | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-03-06 10:43:08,159 - USER_ID: e58c31a3-3de6-430c-9611-875a3d7dcb49 | METHOD: GET | URL: /api/documents/10f13a5e-a97d-4161-b544-2fb9d4f1fe6e | ARGS: {'body': ['0']}
+2022-03-06 10:43:08,183 - USER_ID: e58c31a3-3de6-430c-9611-875a3d7dcb49 | METHOD: POST | URL: /api/documents/10f13a5e-a97d-4161-b544-2fb9d4f1fe6e/split | ARGS: {'pages': [1, 3, 6, 10]}
+2022-03-06 10:43:19,607 - USER_ID: e58c31a3-3de6-430c-9611-875a3d7dcb49 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:43:19,624 - USER_ID: e58c31a3-3de6-430c-9611-875a3d7dcb49 | METHOD: POST | URL: /api/documents/merge | ARGS: {'sources': [{'id': '10f13a5e-a97d-4161-b544-2fb9d4f1fe6e'}, {'id': 'cf3dfb14-8ecf-4a39-83ae-19d1fedc6ea5'}]}
+2022-03-06 10:43:51,941 - USER_ID: e58c31a3-3de6-430c-9611-875a3d7dcb49 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:43:51,958 - USER_ID: e58c31a3-3de6-430c-9611-875a3d7dcb49 | METHOD: GET | URL: /api/documents/10f13a5e-a97d-4161-b544-2fb9d4f1fe6e/download | ARGS: {'body': ['0']}
+2022-03-06 10:43:52,011 - USER_ID: e58c31a3-3de6-430c-9611-875a3d7dcb49 | METHOD: GET | URL: /api/documents/10f13a5e-a97d-4161-b544-2fb9d4f1fe6e/download | ARGS: {'body': ['0']}
+2022-03-06 10:43:52,074 - USER_ID: e58c31a3-3de6-430c-9611-875a3d7dcb49 | METHOD: GET | URL: /api/documents/96ba84ee-4200-47b9-8824-ecfee80cd6d4/download | ARGS: {'body': ['0']}
+2022-03-06 10:43:52,113 - USER_ID: e58c31a3-3de6-430c-9611-875a3d7dcb49 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:43:52,136 - USER_ID: c9675bc0-0d07-4498-9cd7-a46c00b13eda | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': 'e58c31a3-3de6-430c-9611-875a3d7dcb49'}
+2022-03-06 10:43:52,160 - USER_ID: e58c31a3-3de6-430c-9611-875a3d7dcb49 | METHOD: GET | URL: /api/documents/96ba84ee-4200-47b9-8824-ecfee80cd6d4/download | ARGS: {'body': ['0']}
+2022-03-06 10:43:52,546 - USER_ID: e58c31a3-3de6-430c-9611-875a3d7dcb49 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:43:52,747 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 10:43:52,916 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 10:43:53,102 - USER_ID: 1633c437-2255-49a7-9950-424206098a59 | METHOD: POST | URL: /api/documents/ | 
+2022-03-06 10:44:16,772 - USER_ID: 1633c437-2255-49a7-9950-424206098a59 | METHOD: POST | URL: /api/documents/9254201a-d9d0-4712-90c4-29a8790c65fd/split | ARGS: {'pages': [1, 2, 5]}
+2022-03-06 10:44:23,109 - USER_ID: 1633c437-2255-49a7-9950-424206098a59 | METHOD: POST | URL: /api/documents/aedfb354-af78-4204-9428-f4ce0e3b8c41/split | ARGS: {'pages': [1, 5]}
+2022-03-06 10:44:23,991 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 10:44:24,414 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 10:47:55,872 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 10:47:56,080 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 10:47:56,437 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 10:47:56,668 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 10:47:56,913 - USER_ID: 79b8ef90-348c-4cb4-88af-532555c11c6d | METHOD: POST | URL: /api/documents/ | 
+2022-03-06 10:47:59,275 - USER_ID: 79b8ef90-348c-4cb4-88af-532555c11c6d | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-03-06 10:47:59,309 - USER_ID: 79b8ef90-348c-4cb4-88af-532555c11c6d | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:47:59,326 - USER_ID: 79b8ef90-348c-4cb4-88af-532555c11c6d | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-03-06 10:47:59,340 - USER_ID: 79b8ef90-348c-4cb4-88af-532555c11c6d | METHOD: GET | URL: /api/documents/9cfc80ae-2c0d-4f3a-94e4-6e3f2a56a376 | ARGS: {'body': ['0']}
+2022-03-06 10:47:59,359 - USER_ID: a2ce3d78-3954-47cd-8bac-41bc04c98d46 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 0, 'user_id': '79b8ef90-348c-4cb4-88af-532555c11c6d'}
+2022-03-06 10:47:59,375 - USER_ID: 79b8ef90-348c-4cb4-88af-532555c11c6d | METHOD: POST | URL: /api/documents/9cfc80ae-2c0d-4f3a-94e4-6e3f2a56a376/convert | ARGS: {}
+2022-03-06 10:48:28,133 - USER_ID: 79b8ef90-348c-4cb4-88af-532555c11c6d | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:48:28,145 - USER_ID: 79b8ef90-348c-4cb4-88af-532555c11c6d | METHOD: GET | URL: /api/documents/9cfc80ae-2c0d-4f3a-94e4-6e3f2a56a376/previews | ARGS: {}
+2022-03-06 10:48:28,156 - USER_ID: 79b8ef90-348c-4cb4-88af-532555c11c6d | METHOD: GET | URL: /api/documents/97b7dbe6-fdb9-46b3-bb01-94c1e0c7c29c/previews | ARGS: {}
+2022-03-06 10:48:28,192 - USER_ID: 79b8ef90-348c-4cb4-88af-532555c11c6d | METHOD: GET | URL: /api/documents/97b7dbe6-fdb9-46b3-bb01-94c1e0c7c29c | ARGS: {'body': ['0']}
+2022-03-06 10:48:28,201 - USER_ID: 79b8ef90-348c-4cb4-88af-532555c11c6d | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-03-06 10:48:28,210 - USER_ID: 79b8ef90-348c-4cb4-88af-532555c11c6d | METHOD: GET | URL: /api/documents/ | ARGS: {'document_type': ['1']}
+2022-03-06 10:48:28,220 - USER_ID: a2ce3d78-3954-47cd-8bac-41bc04c98d46 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': '79b8ef90-348c-4cb4-88af-532555c11c6d'}
+2022-03-06 10:48:28,235 - USER_ID: 79b8ef90-348c-4cb4-88af-532555c11c6d | METHOD: POST | URL: /api/documents/ | 
+2022-03-06 10:48:29,664 - USER_ID: 79b8ef90-348c-4cb4-88af-532555c11c6d | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:48:29,681 - USER_ID: 79b8ef90-348c-4cb4-88af-532555c11c6d | METHOD: POST | URL: /api/documents/9cfc80ae-2c0d-4f3a-94e4-6e3f2a56a376/convert | ARGS: {}
+2022-03-06 10:49:07,222 - USER_ID: 79b8ef90-348c-4cb4-88af-532555c11c6d | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:49:07,621 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 10:49:07,895 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 10:49:08,212 - USER_ID: 747a49c0-d954-4061-b7d0-b6733114f153 | METHOD: POST | URL: /api/documents/ | 
+2022-03-06 10:49:29,754 - USER_ID: 747a49c0-d954-4061-b7d0-b6733114f153 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:49:29,772 - USER_ID: 747a49c0-d954-4061-b7d0-b6733114f153 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-03-06 10:49:29,946 - USER_ID: 747a49c0-d954-4061-b7d0-b6733114f153 | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-03-06 10:49:29,974 - USER_ID: 747a49c0-d954-4061-b7d0-b6733114f153 | METHOD: GET | URL: /api/documents/0d3a8478-c60a-44ba-9dea-35c0f392a2ae | ARGS: {'body': ['0']}
+2022-03-06 10:49:29,988 - USER_ID: 747a49c0-d954-4061-b7d0-b6733114f153 | METHOD: POST | URL: /api/documents/0d3a8478-c60a-44ba-9dea-35c0f392a2ae/split | ARGS: {'pages': [1, 3, 6, 10]}
+2022-03-06 10:49:38,717 - USER_ID: 747a49c0-d954-4061-b7d0-b6733114f153 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:49:38,754 - USER_ID: 747a49c0-d954-4061-b7d0-b6733114f153 | METHOD: POST | URL: /api/documents/merge | ARGS: {'sources': [{'id': '0d3a8478-c60a-44ba-9dea-35c0f392a2ae'}, {'id': '74b86315-cbb2-48ee-8dbf-91eac99de406'}]}
+2022-03-06 10:50:22,622 - USER_ID: 747a49c0-d954-4061-b7d0-b6733114f153 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:50:22,638 - USER_ID: 747a49c0-d954-4061-b7d0-b6733114f153 | METHOD: GET | URL: /api/documents/0d3a8478-c60a-44ba-9dea-35c0f392a2ae/download | ARGS: {'body': ['0']}
+2022-03-06 10:50:22,690 - USER_ID: 747a49c0-d954-4061-b7d0-b6733114f153 | METHOD: GET | URL: /api/documents/0d3a8478-c60a-44ba-9dea-35c0f392a2ae/download | ARGS: {'body': ['0']}
+2022-03-06 10:50:22,753 - USER_ID: 747a49c0-d954-4061-b7d0-b6733114f153 | METHOD: GET | URL: /api/documents/aa3e8cf6-d7e3-4c79-a99b-bae6a182a85b/download | ARGS: {'body': ['0']}
+2022-03-06 10:50:22,795 - USER_ID: 747a49c0-d954-4061-b7d0-b6733114f153 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:50:22,816 - USER_ID: 371e32c1-8bae-439f-b424-442f71febbf9 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': '747a49c0-d954-4061-b7d0-b6733114f153'}
+2022-03-06 10:50:22,829 - USER_ID: 747a49c0-d954-4061-b7d0-b6733114f153 | METHOD: GET | URL: /api/documents/aa3e8cf6-d7e3-4c79-a99b-bae6a182a85b/download | ARGS: {'body': ['0']}
+2022-03-06 10:50:23,128 - USER_ID: 747a49c0-d954-4061-b7d0-b6733114f153 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:50:23,315 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 10:50:23,536 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 10:50:23,798 - USER_ID: cbbaa4b2-e1d3-4924-b36e-b57552f5a134 | METHOD: POST | URL: /api/documents/ | 
+2022-03-06 10:51:32,392 - USER_ID: cbbaa4b2-e1d3-4924-b36e-b57552f5a134 | METHOD: POST | URL: /api/documents/64f9b4d9-51ab-4395-aece-f227dbd493d6/split | ARGS: {'pages': [1, 2, 5]}
+2022-03-06 10:51:42,053 - USER_ID: cbbaa4b2-e1d3-4924-b36e-b57552f5a134 | METHOD: POST | URL: /api/documents/ab787bba-9824-4029-b925-4ac18e9ddb71/split | ARGS: {'pages': [1, 2]}
+2022-03-06 10:51:47,212 - USER_ID: cbbaa4b2-e1d3-4924-b36e-b57552f5a134 | METHOD: GET | URL: /api/documents/4c2a24d7-bc42-41c2-ae33-716ccbaedfe4 | ARGS: {}
+2022-03-06 10:51:47,550 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 10:51:47,805 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 10:53:38,064 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 10:53:38,858 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 10:53:40,287 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 10:53:40,869 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 10:53:41,486 - USER_ID: a079cbb6-8538-481b-89d7-02943fe2896c | METHOD: POST | URL: /api/documents/ | 
+2022-03-06 10:53:47,917 - USER_ID: a079cbb6-8538-481b-89d7-02943fe2896c | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-03-06 10:53:47,964 - USER_ID: a079cbb6-8538-481b-89d7-02943fe2896c | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:53:47,984 - USER_ID: a079cbb6-8538-481b-89d7-02943fe2896c | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-03-06 10:53:48,009 - USER_ID: a079cbb6-8538-481b-89d7-02943fe2896c | METHOD: GET | URL: /api/documents/a2dbf702-da13-4984-9f8d-94a38c7cac80 | ARGS: {'body': ['0']}
+2022-03-06 10:53:48,024 - USER_ID: 9bc5e86e-27cd-4cb0-85a0-90268f1e0c3e | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 0, 'user_id': 'a079cbb6-8538-481b-89d7-02943fe2896c'}
+2022-03-06 10:53:48,041 - USER_ID: a079cbb6-8538-481b-89d7-02943fe2896c | METHOD: POST | URL: /api/documents/a2dbf702-da13-4984-9f8d-94a38c7cac80/convert | ARGS: {}
+2022-03-06 10:54:32,805 - USER_ID: a079cbb6-8538-481b-89d7-02943fe2896c | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:54:32,817 - USER_ID: a079cbb6-8538-481b-89d7-02943fe2896c | METHOD: GET | URL: /api/documents/a2dbf702-da13-4984-9f8d-94a38c7cac80/previews | ARGS: {}
+2022-03-06 10:54:32,832 - USER_ID: a079cbb6-8538-481b-89d7-02943fe2896c | METHOD: GET | URL: /api/documents/1abea7c8-9113-437f-b031-069b64bb2915/previews | ARGS: {}
+2022-03-06 10:54:32,868 - USER_ID: a079cbb6-8538-481b-89d7-02943fe2896c | METHOD: GET | URL: /api/documents/1abea7c8-9113-437f-b031-069b64bb2915 | ARGS: {'body': ['0']}
+2022-03-06 10:54:32,882 - USER_ID: a079cbb6-8538-481b-89d7-02943fe2896c | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-03-06 10:54:32,898 - USER_ID: a079cbb6-8538-481b-89d7-02943fe2896c | METHOD: GET | URL: /api/documents/ | ARGS: {'document_type': ['1']}
+2022-03-06 10:54:32,915 - USER_ID: 9bc5e86e-27cd-4cb0-85a0-90268f1e0c3e | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': 'a079cbb6-8538-481b-89d7-02943fe2896c'}
+2022-03-06 10:54:32,938 - USER_ID: a079cbb6-8538-481b-89d7-02943fe2896c | METHOD: POST | URL: /api/documents/ | 
+2022-03-06 10:54:35,682 - USER_ID: a079cbb6-8538-481b-89d7-02943fe2896c | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:54:35,728 - USER_ID: a079cbb6-8538-481b-89d7-02943fe2896c | METHOD: POST | URL: /api/documents/a2dbf702-da13-4984-9f8d-94a38c7cac80/convert | ARGS: {}
+2022-03-06 10:55:17,817 - USER_ID: a079cbb6-8538-481b-89d7-02943fe2896c | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:55:18,002 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 10:55:18,205 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 10:55:18,406 - USER_ID: b1a37a50-b352-4f92-81bf-e3cd890501e0 | METHOD: POST | URL: /api/documents/ | 
+2022-03-06 10:55:46,769 - USER_ID: b1a37a50-b352-4f92-81bf-e3cd890501e0 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:55:46,788 - USER_ID: b1a37a50-b352-4f92-81bf-e3cd890501e0 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-03-06 10:55:46,933 - USER_ID: b1a37a50-b352-4f92-81bf-e3cd890501e0 | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-03-06 10:55:46,989 - USER_ID: b1a37a50-b352-4f92-81bf-e3cd890501e0 | METHOD: GET | URL: /api/documents/05d9d9a4-2386-4d93-974d-d1803b19611f | ARGS: {'body': ['0']}
+2022-03-06 10:55:47,012 - USER_ID: b1a37a50-b352-4f92-81bf-e3cd890501e0 | METHOD: POST | URL: /api/documents/05d9d9a4-2386-4d93-974d-d1803b19611f/split | ARGS: {'pages': [1, 3, 6, 10]}
+2022-03-06 10:55:58,313 - USER_ID: b1a37a50-b352-4f92-81bf-e3cd890501e0 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:55:58,385 - USER_ID: b1a37a50-b352-4f92-81bf-e3cd890501e0 | METHOD: POST | URL: /api/documents/merge | ARGS: {'sources': [{'id': '05d9d9a4-2386-4d93-974d-d1803b19611f'}, {'id': 'fef45561-291c-43b1-a637-26d842479786'}]}
+2022-03-06 10:56:33,320 - USER_ID: b1a37a50-b352-4f92-81bf-e3cd890501e0 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:56:33,346 - USER_ID: b1a37a50-b352-4f92-81bf-e3cd890501e0 | METHOD: GET | URL: /api/documents/05d9d9a4-2386-4d93-974d-d1803b19611f/download | ARGS: {'body': ['0']}
+2022-03-06 10:56:33,421 - USER_ID: b1a37a50-b352-4f92-81bf-e3cd890501e0 | METHOD: GET | URL: /api/documents/05d9d9a4-2386-4d93-974d-d1803b19611f/download | ARGS: {'body': ['0']}
+2022-03-06 10:56:33,521 - USER_ID: b1a37a50-b352-4f92-81bf-e3cd890501e0 | METHOD: GET | URL: /api/documents/d990c577-706b-4249-8b78-5ed9737ffbd3/download | ARGS: {'body': ['0']}
+2022-03-06 10:56:33,571 - USER_ID: b1a37a50-b352-4f92-81bf-e3cd890501e0 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:56:33,594 - USER_ID: cf55ca97-6823-4bbf-aad7-e5a03193e1d4 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': 'b1a37a50-b352-4f92-81bf-e3cd890501e0'}
+2022-03-06 10:56:33,607 - USER_ID: b1a37a50-b352-4f92-81bf-e3cd890501e0 | METHOD: GET | URL: /api/documents/d990c577-706b-4249-8b78-5ed9737ffbd3/download | ARGS: {'body': ['0']}
+2022-03-06 10:56:33,971 - USER_ID: b1a37a50-b352-4f92-81bf-e3cd890501e0 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:56:34,142 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 10:56:34,337 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 10:56:34,527 - USER_ID: 1db16961-6ae3-4ce1-93a4-62c18e45774e | METHOD: POST | URL: /api/documents/ | 
+2022-03-06 10:57:09,863 - USER_ID: 1db16961-6ae3-4ce1-93a4-62c18e45774e | METHOD: POST | URL: /api/documents/9880238d-20a7-4ac5-902d-e890322e77f0/split | ARGS: {'pages': [1, 2, 5]}
+2022-03-06 10:57:16,606 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 10:57:16,792 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 10:59:27,584 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 10:59:27,793 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 10:59:28,219 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 10:59:28,395 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 10:59:28,626 - USER_ID: 7d6c035d-ce51-43f4-a79c-9ca166159c77 | METHOD: POST | URL: /api/documents/ | 
+2022-03-06 10:59:33,843 - USER_ID: 7d6c035d-ce51-43f4-a79c-9ca166159c77 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-03-06 10:59:33,927 - USER_ID: 7d6c035d-ce51-43f4-a79c-9ca166159c77 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 10:59:33,953 - USER_ID: 7d6c035d-ce51-43f4-a79c-9ca166159c77 | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-03-06 10:59:33,969 - USER_ID: 7d6c035d-ce51-43f4-a79c-9ca166159c77 | METHOD: GET | URL: /api/documents/efce10b1-4355-4a67-9279-f0c043e4df60 | ARGS: {'body': ['0']}
+2022-03-06 10:59:33,989 - USER_ID: 547d17cc-65f8-499b-aae8-9f075524ac37 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 0, 'user_id': '7d6c035d-ce51-43f4-a79c-9ca166159c77'}
+2022-03-06 10:59:34,009 - USER_ID: 7d6c035d-ce51-43f4-a79c-9ca166159c77 | METHOD: POST | URL: /api/documents/efce10b1-4355-4a67-9279-f0c043e4df60/convert | ARGS: {}
+2022-03-06 11:00:17,141 - USER_ID: 7d6c035d-ce51-43f4-a79c-9ca166159c77 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 11:00:17,153 - USER_ID: 7d6c035d-ce51-43f4-a79c-9ca166159c77 | METHOD: GET | URL: /api/documents/efce10b1-4355-4a67-9279-f0c043e4df60/previews | ARGS: {}
+2022-03-06 11:00:17,167 - USER_ID: 7d6c035d-ce51-43f4-a79c-9ca166159c77 | METHOD: GET | URL: /api/documents/e9b0159a-3a6b-4200-8e88-fc4e04a9f853/previews | ARGS: {}
+2022-03-06 11:00:17,209 - USER_ID: 7d6c035d-ce51-43f4-a79c-9ca166159c77 | METHOD: GET | URL: /api/documents/e9b0159a-3a6b-4200-8e88-fc4e04a9f853 | ARGS: {'body': ['0']}
+2022-03-06 11:00:17,226 - USER_ID: 7d6c035d-ce51-43f4-a79c-9ca166159c77 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-03-06 11:00:17,248 - USER_ID: 7d6c035d-ce51-43f4-a79c-9ca166159c77 | METHOD: GET | URL: /api/documents/ | ARGS: {'document_type': ['1']}
+2022-03-06 11:00:17,257 - USER_ID: 547d17cc-65f8-499b-aae8-9f075524ac37 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': '7d6c035d-ce51-43f4-a79c-9ca166159c77'}
+2022-03-06 11:00:17,274 - USER_ID: 7d6c035d-ce51-43f4-a79c-9ca166159c77 | METHOD: POST | URL: /api/documents/ | 
+2022-03-06 11:00:19,197 - USER_ID: 7d6c035d-ce51-43f4-a79c-9ca166159c77 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 11:00:19,216 - USER_ID: 7d6c035d-ce51-43f4-a79c-9ca166159c77 | METHOD: POST | URL: /api/documents/efce10b1-4355-4a67-9279-f0c043e4df60/convert | ARGS: {}
+2022-03-06 11:00:55,808 - USER_ID: 7d6c035d-ce51-43f4-a79c-9ca166159c77 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 11:00:56,228 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 11:00:56,580 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 11:00:56,919 - USER_ID: d93fb4f5-aaf3-48d1-9eee-b483a1df013c | METHOD: POST | URL: /api/documents/ | 
+2022-03-06 11:01:26,520 - USER_ID: d93fb4f5-aaf3-48d1-9eee-b483a1df013c | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 11:01:26,537 - USER_ID: d93fb4f5-aaf3-48d1-9eee-b483a1df013c | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-03-06 11:01:26,639 - USER_ID: d93fb4f5-aaf3-48d1-9eee-b483a1df013c | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-03-06 11:01:26,672 - USER_ID: d93fb4f5-aaf3-48d1-9eee-b483a1df013c | METHOD: GET | URL: /api/documents/e45d24b5-51ce-4dc5-9223-3c6618245b64 | ARGS: {'body': ['0']}
+2022-03-06 11:01:26,709 - USER_ID: d93fb4f5-aaf3-48d1-9eee-b483a1df013c | METHOD: POST | URL: /api/documents/e45d24b5-51ce-4dc5-9223-3c6618245b64/split | ARGS: {'pages': [1, 3, 6, 10]}
+2022-03-06 11:01:36,305 - USER_ID: d93fb4f5-aaf3-48d1-9eee-b483a1df013c | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 11:01:36,352 - USER_ID: d93fb4f5-aaf3-48d1-9eee-b483a1df013c | METHOD: POST | URL: /api/documents/merge | ARGS: {'sources': [{'id': 'e45d24b5-51ce-4dc5-9223-3c6618245b64'}, {'id': '1dea4a46-4e81-45a9-8247-d98db3e0c340'}]}
+2022-03-06 11:02:16,535 - USER_ID: d93fb4f5-aaf3-48d1-9eee-b483a1df013c | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 11:02:16,556 - USER_ID: d93fb4f5-aaf3-48d1-9eee-b483a1df013c | METHOD: GET | URL: /api/documents/e45d24b5-51ce-4dc5-9223-3c6618245b64/download | ARGS: {'body': ['0']}
+2022-03-06 11:02:16,612 - USER_ID: d93fb4f5-aaf3-48d1-9eee-b483a1df013c | METHOD: GET | URL: /api/documents/e45d24b5-51ce-4dc5-9223-3c6618245b64/download | ARGS: {'body': ['0']}
+2022-03-06 11:02:16,672 - USER_ID: d93fb4f5-aaf3-48d1-9eee-b483a1df013c | METHOD: GET | URL: /api/documents/f0221842-999d-4fb3-9496-b48c3f1f5014/download | ARGS: {'body': ['0']}
+2022-03-06 11:02:16,713 - USER_ID: d93fb4f5-aaf3-48d1-9eee-b483a1df013c | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 11:02:16,739 - USER_ID: 1d89f63c-5105-4a41-a9bc-1d5b77aecc56 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': 'd93fb4f5-aaf3-48d1-9eee-b483a1df013c'}
+2022-03-06 11:02:16,753 - USER_ID: d93fb4f5-aaf3-48d1-9eee-b483a1df013c | METHOD: GET | URL: /api/documents/f0221842-999d-4fb3-9496-b48c3f1f5014/download | ARGS: {'body': ['0']}
+2022-03-06 11:02:17,236 - USER_ID: d93fb4f5-aaf3-48d1-9eee-b483a1df013c | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 11:02:17,431 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 11:02:17,615 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 11:02:17,871 - USER_ID: fa6f6889-64c8-44ec-8668-bbb4678e2327 | METHOD: POST | URL: /api/documents/ | 
+2022-03-06 11:02:49,925 - USER_ID: fa6f6889-64c8-44ec-8668-bbb4678e2327 | METHOD: POST | URL: /api/documents/370a0b61-0228-4128-86a2-a168db20e12f/split | ARGS: {'pages': [1, 2, 5]}
+2022-03-06 11:03:02,216 - USER_ID: fa6f6889-64c8-44ec-8668-bbb4678e2327 | METHOD: POST | URL: /api/documents/370a0b61-0228-4128-86a2-a168db20e12f/split | ARGS: {'range_pages': [1, 5]}
+2022-03-06 11:03:15,522 - USER_ID: fa6f6889-64c8-44ec-8668-bbb4678e2327 | METHOD: GET | URL: /api/documents/ad2164bb-7589-44f8-ba28-8764d5defe93 | ARGS: {}
+2022-03-06 11:03:15,974 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 11:03:16,302 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 11:06:34,989 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 11:06:35,426 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 11:06:36,772 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 11:06:37,285 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 11:06:38,393 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 11:06:38,568 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 11:06:38,996 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 11:06:39,252 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 11:06:39,465 - USER_ID: e6500c01-12d7-450b-8c6a-6f508699e402 | METHOD: POST | URL: /api/documents/ | 
+2022-03-06 11:06:41,508 - USER_ID: e6500c01-12d7-450b-8c6a-6f508699e402 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-03-06 11:06:41,547 - USER_ID: e6500c01-12d7-450b-8c6a-6f508699e402 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 11:06:41,568 - USER_ID: e6500c01-12d7-450b-8c6a-6f508699e402 | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-03-06 11:06:41,583 - USER_ID: e6500c01-12d7-450b-8c6a-6f508699e402 | METHOD: GET | URL: /api/documents/11420cab-a47b-4ac6-89b0-d0e7d285b4a5 | ARGS: {'body': ['0']}
+2022-03-06 11:06:41,598 - USER_ID: 5c29e0ef-5869-480a-b431-2ce807e9597b | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 0, 'user_id': 'e6500c01-12d7-450b-8c6a-6f508699e402'}
+2022-03-06 11:06:41,614 - USER_ID: e6500c01-12d7-450b-8c6a-6f508699e402 | METHOD: POST | URL: /api/documents/11420cab-a47b-4ac6-89b0-d0e7d285b4a5/convert | ARGS: {}
+2022-03-06 11:07:32,401 - USER_ID: e6500c01-12d7-450b-8c6a-6f508699e402 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 11:07:32,428 - USER_ID: e6500c01-12d7-450b-8c6a-6f508699e402 | METHOD: GET | URL: /api/documents/11420cab-a47b-4ac6-89b0-d0e7d285b4a5/previews | ARGS: {}
+2022-03-06 11:07:32,485 - USER_ID: e6500c01-12d7-450b-8c6a-6f508699e402 | METHOD: GET | URL: /api/documents/d2470bde-78f7-4a14-920b-50e8781f127b/previews | ARGS: {}
+2022-03-06 11:07:32,576 - USER_ID: e6500c01-12d7-450b-8c6a-6f508699e402 | METHOD: GET | URL: /api/documents/d2470bde-78f7-4a14-920b-50e8781f127b | ARGS: {'body': ['0']}
+2022-03-06 11:07:32,597 - USER_ID: e6500c01-12d7-450b-8c6a-6f508699e402 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-03-06 11:07:32,627 - USER_ID: e6500c01-12d7-450b-8c6a-6f508699e402 | METHOD: GET | URL: /api/documents/ | ARGS: {'document_type': ['1']}
+2022-03-06 11:07:32,682 - USER_ID: 5c29e0ef-5869-480a-b431-2ce807e9597b | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': 'e6500c01-12d7-450b-8c6a-6f508699e402'}
+2022-03-06 11:07:32,748 - USER_ID: e6500c01-12d7-450b-8c6a-6f508699e402 | METHOD: POST | URL: /api/documents/ | 
+2022-03-06 11:07:35,271 - USER_ID: e6500c01-12d7-450b-8c6a-6f508699e402 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 11:07:35,286 - USER_ID: e6500c01-12d7-450b-8c6a-6f508699e402 | METHOD: POST | URL: /api/documents/11420cab-a47b-4ac6-89b0-d0e7d285b4a5/convert | ARGS: {}
+2022-03-06 11:08:11,697 - USER_ID: e6500c01-12d7-450b-8c6a-6f508699e402 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 11:08:12,499 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 11:08:12,928 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 11:08:13,331 - USER_ID: 284e144c-f2ce-4607-96ee-693110821ab0 | METHOD: POST | URL: /api/documents/ | 
+2022-03-06 11:08:58,118 - USER_ID: 284e144c-f2ce-4607-96ee-693110821ab0 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 11:08:58,135 - USER_ID: 284e144c-f2ce-4607-96ee-693110821ab0 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-03-06 11:08:58,267 - USER_ID: 284e144c-f2ce-4607-96ee-693110821ab0 | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-03-06 11:08:58,295 - USER_ID: 284e144c-f2ce-4607-96ee-693110821ab0 | METHOD: GET | URL: /api/documents/9d7e8689-78e2-4378-b8cf-44d26966be1a | ARGS: {'body': ['0']}
+2022-03-06 11:08:58,311 - USER_ID: 284e144c-f2ce-4607-96ee-693110821ab0 | METHOD: POST | URL: /api/documents/9d7e8689-78e2-4378-b8cf-44d26966be1a/split | ARGS: {'pages': [1, 3, 6, 10]}
+2022-03-06 11:09:11,360 - USER_ID: 284e144c-f2ce-4607-96ee-693110821ab0 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 11:09:11,389 - USER_ID: 284e144c-f2ce-4607-96ee-693110821ab0 | METHOD: POST | URL: /api/documents/merge | ARGS: {'sources': [{'id': '9d7e8689-78e2-4378-b8cf-44d26966be1a'}, {'id': 'c88f2593-048b-4dfa-98e2-a532b87155f2'}]}
+2022-03-06 11:09:54,090 - USER_ID: 284e144c-f2ce-4607-96ee-693110821ab0 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 11:09:54,134 - USER_ID: 284e144c-f2ce-4607-96ee-693110821ab0 | METHOD: GET | URL: /api/documents/9d7e8689-78e2-4378-b8cf-44d26966be1a/download | ARGS: {'body': ['0']}
+2022-03-06 11:09:54,304 - USER_ID: 284e144c-f2ce-4607-96ee-693110821ab0 | METHOD: GET | URL: /api/documents/9d7e8689-78e2-4378-b8cf-44d26966be1a/download | ARGS: {'body': ['0']}
+2022-03-06 11:09:54,417 - USER_ID: 284e144c-f2ce-4607-96ee-693110821ab0 | METHOD: GET | URL: /api/documents/4b7b18fd-0ca8-48d4-977d-130eb333460b/download | ARGS: {'body': ['0']}
+2022-03-06 11:09:54,503 - USER_ID: 284e144c-f2ce-4607-96ee-693110821ab0 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 11:09:54,577 - USER_ID: 71cd6c52-1d50-46da-a534-523d3135a609 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': '284e144c-f2ce-4607-96ee-693110821ab0'}
+2022-03-06 11:09:54,624 - USER_ID: 284e144c-f2ce-4607-96ee-693110821ab0 | METHOD: GET | URL: /api/documents/4b7b18fd-0ca8-48d4-977d-130eb333460b/download | ARGS: {'body': ['0']}
+2022-03-06 11:09:55,430 - USER_ID: 284e144c-f2ce-4607-96ee-693110821ab0 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 11:09:55,714 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 11:09:56,109 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 11:09:56,473 - USER_ID: 0eea5254-8569-44e4-b3a8-6081888d2248 | METHOD: POST | URL: /api/documents/ | 
+2022-03-06 11:10:22,982 - USER_ID: 0eea5254-8569-44e4-b3a8-6081888d2248 | METHOD: POST | URL: /api/documents/4a40abea-cd28-45f0-b3a5-4f56ff6fd58e/split | ARGS: {'pages': [1, 2, 5]}
+2022-03-06 11:10:29,537 - USER_ID: 0eea5254-8569-44e4-b3a8-6081888d2248 | METHOD: POST | URL: /api/documents/4a40abea-cd28-45f0-b3a5-4f56ff6fd58e/split | ARGS: {'range_pages': [1, 5]}
+2022-03-06 11:10:40,232 - USER_ID: 0eea5254-8569-44e4-b3a8-6081888d2248 | METHOD: GET | URL: /api/documents/d10a00ef-3c85-473f-96fa-8faf7858210d | ARGS: {}
+2022-03-06 11:10:40,722 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 11:10:41,190 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 11:10:41,715 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 11:10:42,002 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 11:10:42,491 - USER_ID: anonymous | METHOD: POST | URL: /api/users/register | ARGS: {'login': 'ivan', 'email': 'ivanperovsky@gmail.com', 'password': '1234'}
+2022-03-06 11:10:43,469 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-06 11:10:43,639 - USER_ID: 1011e720-1273-4258-a4a3-af7f175eb75c | METHOD: POST | URL: /api/users/register | ARGS: {'email': 'ivan@marga.app', 'password': '12345'}
+2022-03-06 11:10:44,029 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test@gmail.com', 'password': '1234'}
+2022-03-06 11:10:44,038 - USER_ID: 533642dd-6ec5-41cc-81c2-c54d7324f40c | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test2@gmail.com', 'password': '1234'}
+2022-03-06 11:10:44,042 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan', 'password': '1234'}
+2022-03-06 11:10:44,200 - USER_ID: anonymous | METHOD: POST | URL: /api/users/send-password | ARGS: {'email': 'ivan@marga.app'}
+2022-03-06 11:10:44,456 - USER_ID: anonymous | METHOD: POST | URL: /api/users/restore-password | ARGS: {'new_password': 'BlaBla', 'code': 'z9EJO6lrgUo0', 'user_id': '1011e720-1273-4258-a4a3-af7f175eb75c'}
+2022-03-06 11:10:44,658 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan@marga.app', 'password': '12345'}
+2022-03-06 11:10:44,811 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan@marga.app', 'password': 'BlaBla'}
+2022-03-06 11:10:45,186 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 11:10:45,353 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 11:10:45,699 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-06 11:10:45,863 - USER_ID: 8e09b81a-ca78-4734-a7fa-25345e76b078 | METHOD: POST | URL: /api/users/login_phone | ARGS: {'phone': '79312972206'}
+2022-03-06 11:13:05,193 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 11:13:05,614 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 11:13:06,690 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 11:13:06,976 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 11:13:07,841 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 11:13:08,104 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 11:13:08,648 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 11:13:08,872 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 11:13:09,064 - USER_ID: c01d9fa5-488f-43f8-a297-4e19279271d2 | METHOD: POST | URL: /api/documents/ | 
+2022-03-06 11:13:10,845 - USER_ID: c01d9fa5-488f-43f8-a297-4e19279271d2 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-03-06 11:13:10,870 - USER_ID: c01d9fa5-488f-43f8-a297-4e19279271d2 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 11:13:10,883 - USER_ID: c01d9fa5-488f-43f8-a297-4e19279271d2 | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-03-06 11:13:10,901 - USER_ID: c01d9fa5-488f-43f8-a297-4e19279271d2 | METHOD: GET | URL: /api/documents/ae2005c0-56c2-4ac5-b369-2ca5716c460d | ARGS: {'body': ['0']}
+2022-03-06 11:13:10,921 - USER_ID: abd23ed0-5c8f-4748-b117-1fc41dce0481 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 0, 'user_id': 'c01d9fa5-488f-43f8-a297-4e19279271d2'}
+2022-03-06 11:13:10,939 - USER_ID: c01d9fa5-488f-43f8-a297-4e19279271d2 | METHOD: POST | URL: /api/documents/ae2005c0-56c2-4ac5-b369-2ca5716c460d/convert | ARGS: {}
+2022-03-06 11:13:40,552 - USER_ID: c01d9fa5-488f-43f8-a297-4e19279271d2 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 11:13:40,566 - USER_ID: c01d9fa5-488f-43f8-a297-4e19279271d2 | METHOD: GET | URL: /api/documents/ae2005c0-56c2-4ac5-b369-2ca5716c460d/previews | ARGS: {}
+2022-03-06 11:13:40,580 - USER_ID: c01d9fa5-488f-43f8-a297-4e19279271d2 | METHOD: GET | URL: /api/documents/738e5082-a950-4be0-80e9-e8d517a1a2d0/previews | ARGS: {}
+2022-03-06 11:13:40,614 - USER_ID: c01d9fa5-488f-43f8-a297-4e19279271d2 | METHOD: GET | URL: /api/documents/738e5082-a950-4be0-80e9-e8d517a1a2d0 | ARGS: {'body': ['0']}
+2022-03-06 11:13:40,624 - USER_ID: c01d9fa5-488f-43f8-a297-4e19279271d2 | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-03-06 11:13:40,634 - USER_ID: c01d9fa5-488f-43f8-a297-4e19279271d2 | METHOD: GET | URL: /api/documents/ | ARGS: {'document_type': ['1']}
+2022-03-06 11:13:40,643 - USER_ID: abd23ed0-5c8f-4748-b117-1fc41dce0481 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': 'c01d9fa5-488f-43f8-a297-4e19279271d2'}
+2022-03-06 11:13:40,661 - USER_ID: c01d9fa5-488f-43f8-a297-4e19279271d2 | METHOD: POST | URL: /api/documents/ | 
+2022-03-06 11:13:42,357 - USER_ID: c01d9fa5-488f-43f8-a297-4e19279271d2 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 11:13:42,387 - USER_ID: c01d9fa5-488f-43f8-a297-4e19279271d2 | METHOD: POST | URL: /api/documents/ae2005c0-56c2-4ac5-b369-2ca5716c460d/convert | ARGS: {}
+2022-03-06 11:14:12,839 - USER_ID: c01d9fa5-488f-43f8-a297-4e19279271d2 | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 11:14:13,012 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 11:14:13,181 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 11:14:13,410 - USER_ID: 0bdf6a22-518d-4a91-8a00-584eeea29c2f | METHOD: POST | URL: /api/documents/ | 
+2022-03-06 11:14:37,393 - USER_ID: 0bdf6a22-518d-4a91-8a00-584eeea29c2f | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 11:14:37,428 - USER_ID: 0bdf6a22-518d-4a91-8a00-584eeea29c2f | METHOD: GET | URL: /api/documents/ | ARGS: {}
+2022-03-06 11:14:37,626 - USER_ID: 0bdf6a22-518d-4a91-8a00-584eeea29c2f | METHOD: GET | URL: /api/documents/ | ARGS: {'body': ['1']}
+2022-03-06 11:14:37,719 - USER_ID: 0bdf6a22-518d-4a91-8a00-584eeea29c2f | METHOD: GET | URL: /api/documents/75ae65fe-d216-472f-91b8-8f9fb0ecba43 | ARGS: {'body': ['0']}
+2022-03-06 11:14:37,760 - USER_ID: 0bdf6a22-518d-4a91-8a00-584eeea29c2f | METHOD: POST | URL: /api/documents/75ae65fe-d216-472f-91b8-8f9fb0ecba43/split | ARGS: {'pages': [1, 3, 6, 10]}
+2022-03-06 11:14:47,352 - USER_ID: 0bdf6a22-518d-4a91-8a00-584eeea29c2f | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 11:14:47,395 - USER_ID: 0bdf6a22-518d-4a91-8a00-584eeea29c2f | METHOD: POST | URL: /api/documents/merge | ARGS: {'sources': [{'id': '75ae65fe-d216-472f-91b8-8f9fb0ecba43'}, {'id': 'fa27bfeb-50ca-4bdc-884b-23c912a4170d'}]}
+2022-03-06 11:16:05,578 - USER_ID: 0bdf6a22-518d-4a91-8a00-584eeea29c2f | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 11:16:05,616 - USER_ID: 0bdf6a22-518d-4a91-8a00-584eeea29c2f | METHOD: GET | URL: /api/documents/75ae65fe-d216-472f-91b8-8f9fb0ecba43/download | ARGS: {'body': ['0']}
+2022-03-06 11:16:05,713 - USER_ID: 0bdf6a22-518d-4a91-8a00-584eeea29c2f | METHOD: GET | URL: /api/documents/75ae65fe-d216-472f-91b8-8f9fb0ecba43/download | ARGS: {'body': ['0']}
+2022-03-06 11:16:05,849 - USER_ID: 0bdf6a22-518d-4a91-8a00-584eeea29c2f | METHOD: GET | URL: /api/documents/474bbff5-285e-4ef6-aaa3-a18bd26f38e8/download | ARGS: {'body': ['0']}
+2022-03-06 11:16:05,982 - USER_ID: 0bdf6a22-518d-4a91-8a00-584eeea29c2f | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 11:16:06,103 - USER_ID: 2095e898-c267-4b8a-91d3-1688de418bb2 | METHOD: PUT | URL: /api/users/update-tariff | ARGS: {'tariff': 1, 'user_id': '0bdf6a22-518d-4a91-8a00-584eeea29c2f'}
+2022-03-06 11:16:06,168 - USER_ID: 0bdf6a22-518d-4a91-8a00-584eeea29c2f | METHOD: GET | URL: /api/documents/474bbff5-285e-4ef6-aaa3-a18bd26f38e8/download | ARGS: {'body': ['0']}
+2022-03-06 11:16:06,862 - USER_ID: 0bdf6a22-518d-4a91-8a00-584eeea29c2f | METHOD: GET | URL: /api/users/me | ARGS: {}
+2022-03-06 11:16:07,992 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 11:16:08,482 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 11:16:09,189 - USER_ID: 3cb81a3b-11dc-4b76-98fe-143fa63c19bd | METHOD: POST | URL: /api/documents/ | 
+2022-03-06 11:16:44,200 - USER_ID: 3cb81a3b-11dc-4b76-98fe-143fa63c19bd | METHOD: POST | URL: /api/documents/d8febc97-9477-42ac-8a05-be7e1827625a/split | ARGS: {'pages': [1, 2, 5]}
+2022-03-06 11:16:50,870 - USER_ID: 3cb81a3b-11dc-4b76-98fe-143fa63c19bd | METHOD: POST | URL: /api/documents/d8febc97-9477-42ac-8a05-be7e1827625a/split | ARGS: {'range_pages': [1, 5]}
+2022-03-06 11:17:13,349 - USER_ID: 3cb81a3b-11dc-4b76-98fe-143fa63c19bd | METHOD: GET | URL: /api/documents/7309839e-7630-477d-ae08-50a6dd6094fc | ARGS: {}
+2022-03-06 11:17:13,850 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 11:17:14,422 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 11:17:15,387 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 11:17:15,896 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 11:17:16,251 - USER_ID: anonymous | METHOD: POST | URL: /api/users/register | ARGS: {'login': 'ivan', 'email': 'ivanperovsky@gmail.com', 'password': '1234'}
+2022-03-06 11:17:17,283 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-06 11:17:17,552 - USER_ID: 12786a26-6461-4a5f-a6e0-31029b99f241 | METHOD: POST | URL: /api/users/register | ARGS: {'email': 'ivan@marga.app', 'password': '12345'}
+2022-03-06 11:17:18,033 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test@gmail.com', 'password': '1234'}
+2022-03-06 11:17:18,046 - USER_ID: 37928a67-09c6-417d-847d-768f42cd8fd2 | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'test2@gmail.com', 'password': '1234'}
+2022-03-06 11:17:18,051 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan', 'password': '1234'}
+2022-03-06 11:17:18,283 - USER_ID: anonymous | METHOD: POST | URL: /api/users/send-password | ARGS: {'email': 'ivan@marga.app'}
+2022-03-06 11:17:18,535 - USER_ID: anonymous | METHOD: POST | URL: /api/users/restore-password | ARGS: {'new_password': 'BlaBla', 'code': 'UjUQABc8da9H', 'user_id': '12786a26-6461-4a5f-a6e0-31029b99f241'}
+2022-03-06 11:17:18,795 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan@marga.app', 'password': '12345'}
+2022-03-06 11:17:19,049 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_password | ARGS: {'login': 'ivan@marga.app', 'password': 'BlaBla'}
+2022-03-06 11:17:19,706 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '12345'}
+2022-03-06 11:17:20,188 - USER_ID: anonymous | METHOD: POST | URL: /api/users/login_device | ARGS: {'device_id': '54321'}
+2022-03-06 11:17:20,588 - USER_ID: anonymous | METHOD: POST | URL: /api/users/unauthorized | ARGS: {}
+2022-03-06 11:17:21,520 - USER_ID: f3d8fae8-b6f2-4248-bf68-4f048c99e983 | METHOD: POST | URL: /api/users/login_phone | ARGS: {'phone': '79312972206'}

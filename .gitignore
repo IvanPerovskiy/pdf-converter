@@ -1,0 +1,11 @@
+data/assets
+data/certbot
+data/pg_data
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.idea
+
+celerybeat-schedule
